@@ -1,0 +1,41 @@
+#include "uartDrivers.h"
+#include <string.h>
+#include "system.h"
+#include "io.h"
+
+
+int main()
+{
+	char welcome[] = "Welcome to our super calculator !\nPlease enter you calcul:\n";
+	writeString(welcome);
+	while(1){
+        // Check if some data are in the buffer at a regular period
+        /*char values[1000];
+        int pointer = 0;
+        int i = 0;
+
+	    while(canRead()){
+            for(i = 0; i < 10000; i++);
+	    }
+	    for(i = 0; i < 10000; i++);
+	    do{
+            values[pointer] = IORD_32DIRECT(HOMEMADE_UART_BASE, (1<<2));
+            pointer++;
+            for(i = 0; i < 10000; i++);
+        } while(IORD_32DIRECT(HOMEMADE_UART_BASE, (3<<2)) == 1);
+
+        //printf("%s\n", values);
+
+
+        pointer = 0;
+        while(pointer < strlen(values)){
+            IOWR_32DIRECT(HOMEMADE_UART_BASE, (2<<2),values[pointer]);
+            pointer++;
+        }*/
+		int i;
+        for(i = 0; i < 100000; i++);
+
+    }
+
+	return 0;
+}

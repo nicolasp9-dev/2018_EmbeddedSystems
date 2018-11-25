@@ -1,0 +1,89 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 2018  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+*/
+(header "symbol" (version "1.1"))
+(symbol
+	(rect 0 0 544 240)
+	(text "system" (rect 251 -1 281 11)(font "Arial" (font_size 10)))
+	(text "inst" (rect 8 224 20 236)(font "Arial" ))
+	(port
+		(pt 0 72)
+		(input)
+		(text "clk_clk" (rect 0 0 27 12)(font "Arial" (font_size 8)))
+		(text "clk_clk" (rect 4 61 46 72)(font "Arial" (font_size 8)))
+		(line (pt 0 72)(pt 240 72)(line_width 1))
+	)
+	(port
+		(pt 0 128)
+		(input)
+		(text "homemade_uart_external_connections_rx" (rect 0 0 168 12)(font "Arial" (font_size 8)))
+		(text "homemade_uart_external_connections_rx" (rect 4 117 226 128)(font "Arial" (font_size 8)))
+		(line (pt 0 128)(pt 240 128)(line_width 1))
+	)
+	(port
+		(pt 0 208)
+		(input)
+		(text "reset_reset_n" (rect 0 0 56 12)(font "Arial" (font_size 8)))
+		(text "reset_reset_n" (rect 4 197 82 208)(font "Arial" (font_size 8)))
+		(line (pt 0 208)(pt 240 208)(line_width 1))
+	)
+	(port
+		(pt 0 112)
+		(output)
+		(text "homemade_uart_external_connections_tx" (rect 0 0 167 12)(font "Arial" (font_size 8)))
+		(text "homemade_uart_external_connections_tx" (rect 4 101 226 112)(font "Arial" (font_size 8)))
+		(line (pt 0 112)(pt 240 112)(line_width 1))
+	)
+	(port
+		(pt 0 168)
+		(output)
+		(text "pio_0_external_connection_export[7..0]" (rect 0 0 155 12)(font "Arial" (font_size 8)))
+		(text "pio_0_external_connection_export[7..0]" (rect 4 157 232 168)(font "Arial" (font_size 8)))
+		(line (pt 0 168)(pt 240 168)(line_width 3))
+	)
+	(drawing
+		(text "clk" (rect 225 43 468 99)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "clk" (rect 245 67 508 144)(font "Arial" (color 0 0 0)))
+		(text "homemade_uart_external_connections" (rect 16 83 236 179)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "tx" (rect 245 107 502 224)(font "Arial" (color 0 0 0)))
+		(text "rx" (rect 245 123 502 256)(font "Arial" (color 0 0 0)))
+		(text "pio_0_external_connection" (rect 86 139 322 291)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 245 163 526 336)(font "Arial" (color 0 0 0)))
+		(text "reset" (rect 211 179 452 371)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "reset_n" (rect 245 203 532 416)(font "Arial" (color 0 0 0)))
+		(text " system " (rect 509 224 1066 458)(font "Arial" ))
+		(line (pt 240 32)(pt 304 32)(line_width 1))
+		(line (pt 304 32)(pt 304 224)(line_width 1))
+		(line (pt 240 224)(pt 304 224)(line_width 1))
+		(line (pt 240 32)(pt 240 224)(line_width 1))
+		(line (pt 241 52)(pt 241 76)(line_width 1))
+		(line (pt 242 52)(pt 242 76)(line_width 1))
+		(line (pt 241 92)(pt 241 132)(line_width 1))
+		(line (pt 242 92)(pt 242 132)(line_width 1))
+		(line (pt 241 148)(pt 241 172)(line_width 1))
+		(line (pt 242 148)(pt 242 172)(line_width 1))
+		(line (pt 241 188)(pt 241 212)(line_width 1))
+		(line (pt 242 188)(pt 242 212)(line_width 1))
+		(line (pt 0 0)(pt 544 0)(line_width 1))
+		(line (pt 544 0)(pt 544 240)(line_width 1))
+		(line (pt 0 240)(pt 544 240)(line_width 1))
+		(line (pt 0 0)(pt 0 240)(line_width 1))
+	)
+)

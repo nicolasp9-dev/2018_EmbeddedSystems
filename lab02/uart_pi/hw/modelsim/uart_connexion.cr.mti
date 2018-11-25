@@ -1,0 +1,127 @@
+Z:/embedded_systems/lab02/uart_pi/hw/hdl/read_buffer.vhd {1 {vcom -work work -2002 -explicit -stats=none {Z:\embedded_systems\lab02\uart_pi\hw\hdl\read_buffer.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity read_buffer
+-- Compiling architecture synth of read_buffer
+
+} {} {}} Z:/embedded_systems/lab02/uart_pi/hw/hdl/flags.vhd {1 {vcom -work work -2002 -explicit -stats=none Z:/embedded_systems/lab02/uart_pi/hw/hdl/flags.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity flags
+-- Compiling architecture synth of flags
+
+} {} {}} Z:/embedded_systems/lab02/uart_pi/hw/testbench/tb_setup.vhd {1 {vcom -work work -2002 -explicit -stats=none Z:/embedded_systems/lab02/uart_pi/hw/testbench/tb_setup.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity tb_setup
+-- Compiling architecture testbench of tb_setup
+-- Loading entity setup
+
+} {} {}} Z:/embedded_systems/lab02/uart_pi/hw/testbench/tb_uart.vhd {1 {vcom -work work -2002 -explicit -stats=none Z:/embedded_systems/lab02/uart_pi/hw/testbench/tb_uart.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity tb_uart
+-- Compiling architecture testbench of tb_uart
+-- Loading entity uart
+
+} {} {}} Z:/embedded_systems/lab02/uart_pi/hw/testbench/tb_write_buffer.vhd {1 {vcom -work work -2002 -explicit -stats=none Z:/embedded_systems/lab02/uart_pi/hw/testbench/tb_write_buffer.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity tb_write_buffer
+-- Compiling architecture testbench of tb_write_buffer
+-- Loading entity write_buffer
+
+} {} {}} Z:/embedded_systems/lab02/uart_pi/hw/testbench/tb_read.vhd {1 {vcom -work work -2002 -explicit -stats=none Z:/embedded_systems/lab02/uart_pi/hw/testbench/tb_read.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity tb_read
+-- Compiling architecture testbench of tb_read
+-- Loading entity read
+
+} {} {}} Z:/embedded_systems/lab02/uart_pi/hw/testbench/tb_read_buffer.vhd {1 {vcom -work work -2002 -explicit -stats=none Z:/embedded_systems/lab02/uart_pi/hw/testbench/tb_read_buffer.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity tb_read_buffer
+-- Compiling architecture testbench of tb_read_buffer
+-- Loading entity read_buffer
+
+} {} {}} Z:/embedded_systems/lab02/uart_pi/hw/testbench/tb_flags.vhd {0 {vcom -work work -2002 -explicit -stats=none Z:/embedded_systems/lab02/uart_pi/hw/testbench/tb_flags.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+** Error (suppressible): Z:/embedded_systems/lab02/uart_pi/hw/testbench/tb_flags.vhd(2): (vcom-1491) Empty source files.
+
+} {} {}} Z:/embedded_systems/lab02/uart_pi/hw/hdl/write.vhd {1 {vcom -work work -2002 -explicit -stats=none Z:/embedded_systems/lab02/uart_pi/hw/hdl/write.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity write
+-- Compiling architecture synth of write
+
+} {} {}} Z:/embedded_systems/lab02/uart_pi/hw/hdl/write_buffer.vhd {1 {vcom -work work -2002 -explicit -stats=none Z:/embedded_systems/lab02/uart_pi/hw/hdl/write_buffer.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity write_buffer
+-- Compiling architecture synth of write_buffer
+
+} {} {}} Z:/embedded_systems/lab02/uart_pi/hw/hdl/read.vhd {1 {vcom -work work -2002 -explicit -stats=none Z:/embedded_systems/lab02/uart_pi/hw/hdl/read.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity read
+-- Compiling architecture synth of read
+
+} {} {}} Z:/embedded_systems/lab02/uart_pi/hw/testbench/tb_write.vhd {1 {vcom -work work -2002 -explicit -stats=none Z:/embedded_systems/lab02/uart_pi/hw/testbench/tb_write.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity tb_write
+-- Compiling architecture testbench of tb_write
+-- Loading entity write
+
+} {} {}} Z:/embedded_systems/lab02/uart_pi/hw/hdl/DE0_Nano_SoC_top_level.vhd {1 {vcom -work work -2002 -explicit -stats=none Z:/embedded_systems/lab02/uart_pi/hw/hdl/DE0_Nano_SoC_top_level.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity DE0_Nano_SoC_top_level
+-- Compiling architecture rtl of DE0_Nano_SoC_top_level
+
+} {} {}} Z:/embedded_systems/lab02/uart_pi/hw/hdl/setup.vhd {1 {vcom -work work -2002 -explicit -stats=none Z:/embedded_systems/lab02/uart_pi/hw/hdl/setup.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity setup
+-- Compiling architecture synth of setup
+
+} {} {}}

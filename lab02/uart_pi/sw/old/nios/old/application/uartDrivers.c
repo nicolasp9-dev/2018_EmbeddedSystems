@@ -1,0 +1,24 @@
+/**
+ * Return the next value to be read in the UART reading buffer
+ */
+char read();
+
+/**
+ * Return the next value to be read in the UART reading buffer
+ */
+int write(char* toWrite, int numberOfCharcters);
+
+/**
+ * Return the UART connection state
+ */
+int state();
+
+/**
+ * Return the buffer contentSize
+ */
+int bufferContentSize();
+
+/**
+ *
+ */
+int setup(int wordLength, int rate, int parity);

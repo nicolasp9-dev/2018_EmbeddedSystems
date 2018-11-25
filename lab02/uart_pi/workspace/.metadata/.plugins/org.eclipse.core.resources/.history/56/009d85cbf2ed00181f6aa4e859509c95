@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <string.h>
+#include "system.h"
+#include "io.h"
+#include "uartDrivers.h"
+
+int main()
+{
+	printf("Super calculator is loading");
+	while(1){
+
+
+    }
+
+	return 0;
+}

@@ -1,0 +1,7 @@
+eclipse.preferences.version=1
+newApplicationWizardPage.defaultLocation=Z\:\\embedded_systems\\lab02\\part1\\fpga_intro\\sw\\nios\\application
+newBspWizardPage.defaultLocation=Z\:\\embedded_systems\\lab02\\part1\\fpga_intro\\sw\\nios\\nicolas_peslerbe_bsp
+newBspWizardPage.sopcinfoFile=Z\:\\embedded_systems\\lab02\\part1\\fpga_intro\\hw\\quartus\\system.sopcinfo
+newSoftwareExampleWizardPage.defaultLocation=Z\:\\embedded_systems\\lab02\\uart_pi\\sw\\calculator
+newSoftwareExampleWizardPage.sopcinfoFile=Z\:\\embedded_systems\\lab02\\uart_pi\\hw\\quartus\\system.sopcinfo
+newSoftwareExampleWizardPage2.newBspLocation=Z\:\\embedded_systems\\lab02\\uart_pi\\sw\\nios

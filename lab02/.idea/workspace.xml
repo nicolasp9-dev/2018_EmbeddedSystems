@@ -1,0 +1,586 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4208f494-c13e-4246-8a57-8cdd4293d1e3" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-144214713">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="26" />
+          <entry key="project.open.time.0" value="4" />
+          <entry key="project.open.time.1" value="4" />
+          <entry key="project.open.time.10" value="4" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.3" value="2" />
+          <entry key="project.open.time.4" value="2" />
+          <entry key="project.open.time.5" value="4" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.open.time.7" value="2" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="28" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="Makefile" value="1" />
+          <entry key="bak" value="1" />
+          <entry key="bsp" value="1" />
+          <entry key="c" value="16" />
+          <entry key="d" value="2" />
+          <entry key="h" value="10" />
+          <entry key="html" value="1" />
+          <entry key="mk" value="1" />
+          <entry key="mpf" value="1" />
+          <entry key="mti" value="1" />
+          <entry key="qsys" value="1" />
+          <entry key="tcl" value="3" />
+          <entry key="vhd" value="62" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Arma.Header" value="10" />
+          <entry key="C++" value="16" />
+          <entry key="HTML" value="1" />
+          <entry key="PLAIN_TEXT" value="12" />
+          <entry key="VHDL" value="62" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="c" value="2070" />
+          <entry key="h" value="13" />
+          <entry key="vhd" value="14540" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Arma.Header" value="13" />
+          <entry key="C++" value="2065" />
+          <entry key="Enforced Plain Text" value="5" />
+          <entry key="VHDL" value="14465" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.spring.boot.mvc.usages" />
+      <usages-collector id="statistics.spring.boot.run.usages" />
+      <usages-collector id="statistics.vcs.git.usages" />
+      <usages-collector id="statistics.js.language.service.starts" />
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/uart_pi/hw/hdl/write.vhd">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="68" column="27" selection-start-line="68" selection-start-column="27" selection-end-line="68" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/uart_pi/hw/hdl/write_buffer.vhd">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="262">
+              <caret line="58" column="27" selection-start-line="58" selection-start-column="27" selection-end-line="58" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/uart_pi/hw/hdl/setup.vhd">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="32" column="31" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/uart_pi/hw/hdl/uart.vhd">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="217" column="28" lean-forward="true" selection-start-line="217" selection-start-column="28" selection-end-line="217" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/uart_pi/sw/calculator/uartDrivers.c">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/uart_pi/sw/calculator/calculator.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="667">
+              <caret line="63" column="29" selection-start-line="63" selection-start-column="29" selection-end-line="63" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/uart_pi/hw/hdl/read_buffer.vhd">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="810">
+              <caret line="54" column="30" selection-start-line="54" selection-start-column="30" selection-end-line="54" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/uart_pi/hw/hdl/read.vhd">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="667">
+              <caret line="94" column="23" selection-start-line="94" selection-start-column="23" selection-end-line="94" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>next</find>
+      <find>read</find>
+      <find>must_capture_setup</find>
+      <find>rate</find>
+      <find>change_s</find>
+      <find>waiting</find>
+      <find>data_incomming_from_uart</find>
+      <find>IOWR_</find>
+      <find>8)</find>
+      <find>rddata</find>
+      <find>avs_chipselect</find>
+      <find>tx</find>
+      <find>read_vector</find>
+      <find>counter_setted_stop_value</find>
+      <find>counter_stop_value</find>
+      <find>change_step</find>
+      <find>raz</find>
+      <find>was_write</find>
+      <find>action_setup_uart</find>
+      <find>was_read</find>
+      <find>read_buffer_sig</find>
+      <find>action_write_to_uart</find>
+      <find>write_data</find>
+      <find>written</find>
+      <find>read_flags</find>
+      <find>avs_write</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>action_setup_uart</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/uart_pi/sw</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/part1/fpga_intro/hw/hdl/DE0_Nano_SoC_top_level.vhd" />
+        <option value="$PROJECT_DIR$/part1/fpga_intro/sw/nios/application/hello_world.c" />
+        <option value="$PROJECT_DIR$/part1/fpga_intro/sw/nios/application/uartDrivers.c" />
+        <option value="$PROJECT_DIR$/part1/fpga_intro/sw/nios/application/uartDrivers.h" />
+        <option value="$PROJECT_DIR$/part1/fpga_intro/sw/nios/application/uar_controller.c" />
+        <option value="$PROJECT_DIR$/part1/fpga_intro/sw/nios/application/uart_controller.c" />
+        <option value="$PROJECT_DIR$/part1/fpga_intro/hw/hdl/read_buffer.vhd" />
+        <option value="$PROJECT_DIR$/part1/fpga_intro/hw/hdl/setup.vhd" />
+        <option value="$PROJECT_DIR$/part1/fpga_intro/hw/hdl/write.vhd" />
+        <option value="$PROJECT_DIR$/part1/fpga_intro/hw/hdl/write_buffer.vhd" />
+        <option value="$PROJECT_DIR$/part1/fpga_intro/hw/testbench/tb_flags.vhd" />
+        <option value="$PROJECT_DIR$/part1/fpga_intro/hw/testbench/tb_read_buffer.vhd" />
+        <option value="$PROJECT_DIR$/part1/fpga_intro/hw/testbench/tb_setup.vhd" />
+        <option value="$PROJECT_DIR$/part1/fpga_intro/hw/testbench/tb_write.vhd" />
+        <option value="$PROJECT_DIR$/part1/fpga_intro/hw/testbench/tb_write_buffer.vhd" />
+        <option value="$PROJECT_DIR$/part1/fpga_intro/hw/testbench/tb_read.vhd" />
+        <option value="$PROJECT_DIR$/part1/fpga_intro/hw/hdl/read.vhd" />
+        <option value="$PROJECT_DIR$/part1/fpga_intro/hw/hdl/flags.vhd" />
+        <option value="$PROJECT_DIR$/part1/fpga_intro/hw/hdl/uart.vhd" />
+        <option value="$PROJECT_DIR$/part1/fpga_intro/hw/testbench/tb_uart.vhd" />
+        <option value="$PROJECT_DIR$/uart_pi/hw/hdl/DE0_Nano_SoC_top_level.vhd" />
+        <option value="$PROJECT_DIR$/uart_pi/sw/app/hello_world.c" />
+        <option value="$PROJECT_DIR$/uart_pi/hw/hdl/write.vhd" />
+        <option value="$PROJECT_DIR$/uart_pi/hw/testbench/tb_uart.vhd" />
+        <option value="$PROJECT_DIR$/uart_pi/hw/hdl/read.vhd" />
+        <option value="$PROJECT_DIR$/uart_pi/hw/hdl/setup.vhd" />
+        <option value="$PROJECT_DIR$/uart_pi/hw/hdl/write_buffer.vhd" />
+        <option value="$PROJECT_DIR$/uart_pi/hw/hdl/flags.vhd" />
+        <option value="$PROJECT_DIR$/uart_pi/hw/hdl/read_buffer.vhd" />
+        <option value="$PROJECT_DIR$/uart_pi/hw/hdl/uart.vhd" />
+        <option value="$PROJECT_DIR$/uart_pi/sw/calculator/calculator.c" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="y" value="383" />
+    <option name="width" value="1920" />
+    <option name="height" value="996" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="lab02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab02" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lab02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab02" type="462c0819:PsiDirectoryNode" />
+              <item name="uart_pi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lab02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab02" type="462c0819:PsiDirectoryNode" />
+              <item name="uart_pi" type="462c0819:PsiDirectoryNode" />
+              <item name="hw" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lab02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab02" type="462c0819:PsiDirectoryNode" />
+              <item name="uart_pi" type="462c0819:PsiDirectoryNode" />
+              <item name="hw" type="462c0819:PsiDirectoryNode" />
+              <item name="hdl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lab02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab02" type="462c0819:PsiDirectoryNode" />
+              <item name="uart_pi" type="462c0819:PsiDirectoryNode" />
+              <item name="hw" type="462c0819:PsiDirectoryNode" />
+              <item name="modelsim" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lab02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab02" type="462c0819:PsiDirectoryNode" />
+              <item name="uart_pi" type="462c0819:PsiDirectoryNode" />
+              <item name="hw" type="462c0819:PsiDirectoryNode" />
+              <item name="quartus" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lab02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab02" type="462c0819:PsiDirectoryNode" />
+              <item name="uart_pi" type="462c0819:PsiDirectoryNode" />
+              <item name="sw" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lab02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab02" type="462c0819:PsiDirectoryNode" />
+              <item name="uart_pi" type="462c0819:PsiDirectoryNode" />
+              <item name="sw" type="462c0819:PsiDirectoryNode" />
+              <item name="calculator" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541993854997" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4208f494-c13e-4246-8a57-8cdd4293d1e3" name="Default Changelist" comment="" />
+      <created>1541422743074</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1541422743074</updated>
+      <workItem from="1541422744369" duration="2524000" />
+      <workItem from="1541460797124" duration="6336000" />
+      <workItem from="1541522513782" duration="1745000" />
+      <workItem from="1541526688894" duration="1375000" />
+      <workItem from="1541789122687" duration="376000" />
+      <workItem from="1541858025292" duration="17607000" />
+      <workItem from="1541907511811" duration="8855000" />
+      <workItem from="1541949593365" duration="13840000" />
+      <workItem from="1541970110007" duration="16261000" />
+      <workItem from="1541994031210" duration="75000" />
+      <workItem from="1542026769144" duration="479000" />
+      <workItem from="1542039954603" duration="9879000" />
+      <workItem from="1542235878670" duration="3132000" />
+      <workItem from="1542360866381" duration="5821000" />
+      <workItem from="1542559923175" duration="914000" />
+      <workItem from="1542566250091" duration="1854000" />
+      <workItem from="1542579279816" duration="8955000" />
+      <workItem from="1542626386802" duration="6925000" />
+      <workItem from="1542654661197" duration="1756000" />
+      <workItem from="1542713348810" duration="261000" />
+      <workItem from="1542837467525" duration="54000" />
+      <workItem from="1542837693876" duration="7992000" />
+      <workItem from="1542892610595" duration="842000" />
+      <workItem from="1542916726915" duration="19000" />
+      <workItem from="1542916753887" duration="643000" />
+      <workItem from="1542926349354" duration="5070000" />
+      <workItem from="1542969167889" duration="984000" />
+      <workItem from="1543140992455" duration="967000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="125541000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49923897" visible="true" weight="0.28038126" />
+      <window_info id="Structure" order="1" sideWeight="0.50076103" side_tool="true" weight="0.2893773" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.07755102" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" visible="true" weight="0.21021898" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/part1/fpga_intro/hw/testbench/tb_flags.vhd" />
+    <entry file="file://$PROJECT_DIR$/part1/fpga_intro/hw/hdl/flags.vhd" />
+    <entry file="file://$PROJECT_DIR$/part1/fpga_intro/hw/hdl/read.vhd" />
+    <entry file="file://$PROJECT_DIR$/part1/fpga_intro/hw/hdl/write.vhd" />
+    <entry file="file://$PROJECT_DIR$/part1/fpga_intro/sw/nios/application/uartDrivers.c" />
+    <entry file="file://$PROJECT_DIR$/part1/fpga_intro/sw/nios/application/uartDrivers.h" />
+    <entry file="file://$PROJECT_DIR$/part1/fpga_intro/hw/hdl/uart.vhd" />
+    <entry file="file://$PROJECT_DIR$/part1/fpga_intro/hw/quartus/system/system_inst.vhd" />
+    <entry file="file://$PROJECT_DIR$/uart_pi/hw/modelsim/uart_connexion.mpf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uart_pi/hw/modelsim/uart_connexion.cr.mti">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uart_pi/sw/nios/summary.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2785" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uart_pi/sw/nios/settings.bsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uart_pi/sw/nios/public.mk">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uart_pi/sw/nios/obj/alt_sys_init.d">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uart_pi/sw/nios/obj/drivers/src/altera_avalon_sysid_qsys.d">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uart_pi/sw/nios/HAL/inc/altera_nios2_gen2_irq.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uart_pi/sw/nios/HAL/inc/alt_types.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uart_pi/sw/nios/HAL/inc/io.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uart_pi/sw/nios/HAL/inc/nios2.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1274" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uart_pi/sw/nios/drivers/src/altera_avalon_sysid_qsys.c">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uart_pi/sw/nios/drivers/src/altera_avalon_jtag_uart_fd.c">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uart_pi/hw/quartus/pin_assignment_DE0_Nano_SoC.tcl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uart_pi/hw/quartus/pin_assignment_DE0_Nano_SoC_LT24.tcl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uart_pi/sw/nios/system.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3060">
+          <caret line="204" column="34" selection-start-line="204" selection-start-column="27" selection-end-line="204" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uart_pi/hw/quartus/pin_assignment_DE0_Nano_SoC_7_segment_extension.tcl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uart_pi/hw/testbench/tb_write_buffer.vhd">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uart_pi/sw/nios/linker.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uart_pi/hw/quartus/system.qsys">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uart_pi/sw/app/uartDrivers.c" />
+    <entry file="file://$PROJECT_DIR$/uart_pi/sw/app/uartDrivers.h" />
+    <entry file="file://$PROJECT_DIR$/uart_pi/sw/app/hello_world.c" />
+    <entry file="file://$PROJECT_DIR$/uart_pi/hw/testbench/tb_write.vhd">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uart_pi/hw/testbench/tb_uart.vhd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2610">
+          <caret line="174" column="33" selection-start-line="174" selection-start-column="33" selection-end-line="174" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uart_pi/hw/testbench/tb_read.vhd">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uart_pi/hw/testbench/tb_flags.vhd">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uart_pi/hw/testbench/tb_read_buffer.vhd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uart_pi/hw/testbench/tb_setup.vhd">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uart_pi/sw/app/Makefile" />
+    <entry file="file://$PROJECT_DIR$/uart_pi/sw/nios/alt_sys_init.c">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uart_pi/sw/nios/drivers/src/altera_avalon_jtag_uart_ioctl.c">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uart_pi/sw/nios/drivers/src/altera_avalon_jtag_uart_read.c">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uart_pi/hw/hdl/DE0_Nano_SoC_top_level.vhd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1365">
+          <caret line="91" column="45" selection-start-line="91" selection-start-column="45" selection-end-line="91" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uart_pi/hw/hdl/flags.vhd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uart_pi/hw/hdl/setup.vhd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="31" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uart_pi/sw/calculator/uartDrivers.c">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uart_pi/sw/calculator/calculator.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="63" column="29" selection-start-line="63" selection-start-column="29" selection-end-line="63" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uart_pi/hw/hdl/uart.vhd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="217" column="28" lean-forward="true" selection-start-line="217" selection-start-column="28" selection-end-line="217" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uart_pi/hw/hdl/read_buffer.vhd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="54" column="30" selection-start-line="54" selection-start-column="30" selection-end-line="54" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uart_pi/hw/hdl/read.vhd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="94" column="23" selection-start-line="94" selection-start-column="23" selection-end-line="94" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uart_pi/hw/hdl/write_buffer.vhd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="58" column="27" selection-start-line="58" selection-start-column="27" selection-end-line="58" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uart_pi/hw/hdl/write.vhd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="68" column="27" selection-start-line="68" selection-start-column="27" selection-end-line="68" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

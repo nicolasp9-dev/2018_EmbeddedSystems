@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="false" key="isRegEx"/>
+		<item value="ADC14_CTL1_RES_2" key="selection"/>
+		<item value="false" key="casesensitive"/>
+		<item value="false" key="incremental"/>
+		<item value="true" key="wrap"/>
+		<item value="false" key="wholeword"/>
+		<list key="findhistory">
+			<item value="ADC14_CTL1_RES_2"/>
+			<item value="ADC14_CTL0_CONSEQ_1"/>
+			<item value="ADC14_CTL0_SHP"/>
+			<item value="ADC14_CTL0_SHT0__16"/>
+			<item value="SEL0"/>
+			<item value="TIMER_A_CTL_MC_1"/>
+			<item value="ADC14_MCTLN_INCH_11"/>
+			<item value="ADC14-&gt;MCTL[1] |= ADC14_MCTLN_INCH_11 | ADC14_MCTLN_EOS;&#x0A;"/>
+			<item value="    ADC14-&gt;MCTL[1] |= ADC14_MCTLN_INCH_11 | ADC14_MCTLN_EOS;&#x0A;"/>
+			<item value="ADC14_IER0_IE0"/>
+			<item value="ADC"/>
+			<item value="CS_CTL1_SELS_5"/>
+			<item value="CS_CTL1_DIVS_2"/>
+			<item value="CS_CTL2_LFXT_EN"/>
+			<item value="CS_CTL2_HFXTFREQ_6"/>
+		</list>
+		<list key="replacehistory">
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="294" key="DIALOG_WIDTH"/>
+		<item value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont" key="DIALOG_FONT_NAME"/>
+		<item value="407" key="DIALOG_HEIGHT"/>
+		<item value="1030" key="DIALOG_X_ORIGIN"/>
+		<item value="405" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>

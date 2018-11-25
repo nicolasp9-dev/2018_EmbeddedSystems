@@ -1,0 +1,9 @@
+00:56:04 **** Incremental Build of configuration Nios II for project uart_control_app ****
+make all 
+Info: Building Z:/embedded_systems/lab02/uart_pi/sw/nios/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C Z:/embedded_systems/lab02/uart_pi/sw/nios/
+[BSP build complete]
+[uart_control_app build complete]
+
+00:56:27 Build Finished (took 22s.605ms)
+

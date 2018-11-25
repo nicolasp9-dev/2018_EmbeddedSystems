@@ -1,0 +1,586 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dZ:/2018 - Computer Architecture/LAB03/modelsim_nicolas
+Ede0_nano_soc_top_level
+Z0 w1542330657
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z3 dZ:/embedded_systems/lab02/uart_pi/hw/modelsim
+Z4 8Z:/embedded_systems/lab02/uart_pi/hw/hdl/DE0_Nano_SoC_top_level.vhd
+Z5 FZ:/embedded_systems/lab02/uart_pi/hw/hdl/DE0_Nano_SoC_top_level.vhd
+l0
+L20
+V=EIJ_a1D29?kM3;DHo91H1
+!s100 ?9mJc9T1iL5bM5zFW[f^E1
+Z6 OV;C;10.5b;63
+32
+Z7 !s110 1542917133
+!i10b 1
+Z8 !s108 1542917133.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/embedded_systems/lab02/uart_pi/hw/hdl/DE0_Nano_SoC_top_level.vhd|
+Z10 !s107 Z:/embedded_systems/lab02/uart_pi/hw/hdl/DE0_Nano_SoC_top_level.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Artl
+R1
+R2
+DEx4 work 22 de0_nano_soc_top_level 0 22 =EIJ_a1D29?kM3;DHo91H1
+l119
+L107
+VYkRlD7`:_=7?N8DH8YJG01
+!s100 LE92GWDAFO@]FBm6aHobi2
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Eflags
+Z13 w1542843312
+Z14 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R1
+R2
+R3
+Z15 8Z:/embedded_systems/lab02/uart_pi/hw/hdl/flags.vhd
+Z16 FZ:/embedded_systems/lab02/uart_pi/hw/hdl/flags.vhd
+l0
+L7
+VhQE16e?_Mmi^d;^PCT3^H2
+!s100 a`;l952@O:Re`d42UaZ1S0
+R6
+32
+Z17 !s110 1542917134
+!i10b 1
+R8
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/embedded_systems/lab02/uart_pi/hw/hdl/flags.vhd|
+Z19 !s107 Z:/embedded_systems/lab02/uart_pi/hw/hdl/flags.vhd|
+!i113 1
+R11
+R12
+Asynth
+R14
+R1
+R2
+DEx4 work 5 flags 0 22 hQE16e?_Mmi^d;^PCT3^H2
+l19
+L18
+VG2oV0R3aek<QLD=2]7VYW1
+!s100 0lVbL1X^aD5oGJFTPcdUT0
+R6
+32
+R17
+!i10b 1
+R8
+R18
+R19
+!i113 1
+R11
+R12
+Eread
+Z20 w1542658929
+R14
+R1
+R2
+R3
+Z21 8Z:/embedded_systems/lab02/uart_pi/hw/hdl/read.vhd
+Z22 FZ:/embedded_systems/lab02/uart_pi/hw/hdl/read.vhd
+l0
+L7
+VzJ9_ZaKkK<8?TDzb8zLD71
+!s100 9GlbT@RnP^F[BWS9Q>Do]2
+R6
+32
+R17
+!i10b 1
+Z23 !s108 1542917134.000000
+Z24 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/embedded_systems/lab02/uart_pi/hw/hdl/read.vhd|
+Z25 !s107 Z:/embedded_systems/lab02/uart_pi/hw/hdl/read.vhd|
+!i113 1
+R11
+R12
+Asynth
+R14
+R1
+R2
+Z26 DEx4 work 4 read 0 22 zJ9_ZaKkK<8?TDzb8zLD71
+l35
+L23
+VLDfSB4MaQ]PH]DmLmZ``=0
+!s100 GLI;RaZZV>c<TFJ2L5T2?1
+R6
+32
+R17
+!i10b 1
+R23
+R24
+R25
+!i113 1
+R11
+R12
+Eread_buffer
+Z27 w1542846326
+R14
+R1
+R2
+R3
+Z28 8Z:\embedded_systems\lab02\uart_pi\hw\hdl\read_buffer.vhd
+Z29 FZ:\embedded_systems\lab02\uart_pi\hw\hdl\read_buffer.vhd
+l0
+L7
+V[7W`LR]ImddM;iGaMA2W<0
+!s100 UFna]<O`z3?23Z=g_f2Va0
+R6
+32
+Z30 !s110 1542917135
+!i10b 1
+R23
+Z31 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:\embedded_systems\lab02\uart_pi\hw\hdl\read_buffer.vhd|
+Z32 !s107 Z:\embedded_systems\lab02\uart_pi\hw\hdl\read_buffer.vhd|
+!i113 1
+R11
+R12
+Asynth
+R14
+R1
+R2
+Z33 DEx4 work 11 read_buffer 0 22 [7W`LR]ImddM;iGaMA2W<0
+l28
+L19
+VBLcX<QSKo9S04Wc[L`YL80
+!s100 l5B<I[zoG_`klX]WC_6nR2
+R6
+32
+R30
+!i10b 1
+R23
+R31
+R32
+!i113 1
+R11
+R12
+Esetup
+Z34 w1542659371
+R1
+R2
+R3
+Z35 8Z:/embedded_systems/lab02/uart_pi/hw/hdl/setup.vhd
+Z36 FZ:/embedded_systems/lab02/uart_pi/hw/hdl/setup.vhd
+l0
+L6
+VInjT7fH970BmjR6Ti0a;a3
+!s100 c?fcCc=GUn?@@N1DNRI^c0
+R6
+32
+R30
+!i10b 1
+Z37 !s108 1542917135.000000
+Z38 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/embedded_systems/lab02/uart_pi/hw/hdl/setup.vhd|
+Z39 !s107 Z:/embedded_systems/lab02/uart_pi/hw/hdl/setup.vhd|
+!i113 1
+R11
+R12
+Asynth
+R1
+R2
+Z40 DEx4 work 5 setup 0 22 InjT7fH970BmjR6Ti0a;a3
+l22
+L18
+V5KbL5`0oDnCjSk4[5EP5H1
+!s100 =Ph]mmgQgCQS0miQ6z;o<1
+R6
+32
+R30
+!i10b 1
+R37
+R38
+R39
+!i113 1
+R11
+R12
+Etb_read
+Z41 w1541973857
+R14
+R1
+R2
+R3
+Z42 8Z:/embedded_systems/lab02/uart_pi/hw/testbench/tb_read.vhd
+Z43 FZ:/embedded_systems/lab02/uart_pi/hw/testbench/tb_read.vhd
+l0
+L7
+VX14Mk1k?jZ9a4kR[h3[Rb2
+!s100 >H<3?4I[S^h1ZOo@gXhWi3
+R6
+32
+Z44 !s110 1542917138
+!i10b 1
+Z45 !s108 1542917137.000000
+Z46 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/embedded_systems/lab02/uart_pi/hw/testbench/tb_read.vhd|
+Z47 !s107 Z:/embedded_systems/lab02/uart_pi/hw/testbench/tb_read.vhd|
+!i113 1
+R11
+R12
+Atestbench
+R26
+R14
+R1
+R2
+DEx4 work 7 tb_read 0 22 X14Mk1k?jZ9a4kR[h3[Rb2
+l26
+L10
+VZiEc4VboE]oH?aP4c<0[53
+!s100 e=1:ReoGmnP0dJ_f1?06k2
+R6
+32
+R44
+!i10b 1
+R45
+R46
+R47
+!i113 1
+R11
+R12
+Etb_read_buffer
+Z48 w1541955363
+R14
+R1
+R2
+R3
+Z49 8Z:/embedded_systems/lab02/uart_pi/hw/testbench/tb_read_buffer.vhd
+Z50 FZ:/embedded_systems/lab02/uart_pi/hw/testbench/tb_read_buffer.vhd
+l0
+L7
+VnI^ZQ?O]dJ8RJ<BLYVC@j2
+!s100 eFi?Q[25V0[EhAIIK7U6?0
+R6
+32
+R44
+!i10b 1
+Z51 !s108 1542917138.000000
+Z52 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/embedded_systems/lab02/uart_pi/hw/testbench/tb_read_buffer.vhd|
+Z53 !s107 Z:/embedded_systems/lab02/uart_pi/hw/testbench/tb_read_buffer.vhd|
+!i113 1
+R11
+R12
+Atestbench
+R33
+R14
+R1
+R2
+DEx4 work 14 tb_read_buffer 0 22 nI^ZQ?O]dJ8RJ<BLYVC@j2
+l23
+L10
+VULLC[_XjF<k1O^Dd=a[LY2
+!s100 Pf`ndG_`Q@Pf8KM>4z2c<2
+R6
+32
+R44
+!i10b 1
+R51
+R52
+R53
+!i113 1
+R11
+R12
+Etb_setup
+R48
+R14
+R1
+R2
+R3
+Z54 8Z:/embedded_systems/lab02/uart_pi/hw/testbench/tb_setup.vhd
+Z55 FZ:/embedded_systems/lab02/uart_pi/hw/testbench/tb_setup.vhd
+l0
+L7
+V9lKI3AIRZScL]]HnRJae12
+!s100 ihj1YAnjb_CiV0z__PWbW2
+R6
+32
+Z56 !s110 1542917139
+!i10b 1
+Z57 !s108 1542917139.000000
+Z58 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/embedded_systems/lab02/uart_pi/hw/testbench/tb_setup.vhd|
+Z59 !s107 Z:/embedded_systems/lab02/uart_pi/hw/testbench/tb_setup.vhd|
+!i113 1
+R11
+R12
+Atestbench
+R40
+R14
+R1
+R2
+DEx4 work 8 tb_setup 0 22 9lKI3AIRZScL]]HnRJae12
+l23
+L10
+Ve`o^mhgkd6TWl0`oDmFJH1
+!s100 ::=ln[NcGN>_FkW_7Q]^[2
+R6
+32
+R56
+!i10b 1
+R57
+R58
+R59
+!i113 1
+R11
+R12
+Etb_uart
+Z60 w1542658773
+R14
+R1
+R2
+R3
+Z61 8Z:/embedded_systems/lab02/uart_pi/hw/testbench/tb_uart.vhd
+Z62 FZ:/embedded_systems/lab02/uart_pi/hw/testbench/tb_uart.vhd
+l0
+L7
+V>OB:fT?b=DY`ZfPjo2Y?31
+!s100 _H8W^FBEhL>f<MjaG@z?=1
+R6
+32
+R56
+!i10b 1
+R57
+Z63 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/embedded_systems/lab02/uart_pi/hw/testbench/tb_uart.vhd|
+Z64 !s107 Z:/embedded_systems/lab02/uart_pi/hw/testbench/tb_uart.vhd|
+!i113 1
+R11
+R12
+Atestbench
+Z65 DEx4 work 4 uart 0 22 _8PUeTmgBYikHLR=D0zEm0
+R14
+R1
+R2
+DEx4 work 7 tb_uart 0 22 >OB:fT?b=DY`ZfPjo2Y?31
+l31
+L10
+V<0^5a6hGkS;eP^[AeUMN91
+!s100 VR7fV3z<naaJfg[3oTHM=1
+R6
+32
+R56
+!i10b 1
+R57
+R63
+R64
+!i113 1
+R11
+R12
+Etb_write
+R48
+R14
+R1
+R2
+R3
+Z66 8Z:/embedded_systems/lab02/uart_pi/hw/testbench/tb_write.vhd
+Z67 FZ:/embedded_systems/lab02/uart_pi/hw/testbench/tb_write.vhd
+l0
+L7
+VZ29fX5B>Cddjec?KZVoDR2
+!s100 :VKZh1Y?6g`KodEe_aZHg1
+R6
+32
+Z68 !s110 1542917140
+!i10b 1
+Z69 !s108 1542917140.000000
+Z70 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/embedded_systems/lab02/uart_pi/hw/testbench/tb_write.vhd|
+Z71 !s107 Z:/embedded_systems/lab02/uart_pi/hw/testbench/tb_write.vhd|
+!i113 1
+R11
+R12
+Atestbench
+Z72 DEx4 work 5 write 0 22 _>A@VPAYo8l4CYdH;l:5J0
+R14
+R1
+R2
+DEx4 work 8 tb_write 0 22 Z29fX5B>Cddjec?KZVoDR2
+l26
+L10
+V3]d^^6E1<A0I0[0ijloo?3
+!s100 8`B=EGgWB]B89dohQRl^e0
+R6
+32
+R68
+!i10b 1
+R69
+R70
+R71
+!i113 1
+R11
+R12
+Etb_write_buffer
+R48
+R14
+R1
+R2
+R3
+Z73 8Z:/embedded_systems/lab02/uart_pi/hw/testbench/tb_write_buffer.vhd
+Z74 FZ:/embedded_systems/lab02/uart_pi/hw/testbench/tb_write_buffer.vhd
+l0
+L7
+VZaWkPJ[?9^zIKFz4g^<`21
+!s100 1LVDh[4>EOa0<mX?iC45R1
+R6
+32
+R68
+!i10b 1
+R69
+Z75 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/embedded_systems/lab02/uart_pi/hw/testbench/tb_write_buffer.vhd|
+Z76 !s107 Z:/embedded_systems/lab02/uart_pi/hw/testbench/tb_write_buffer.vhd|
+!i113 1
+R11
+R12
+Atestbench
+Z77 DEx4 work 12 write_buffer 0 22 CjgCzIc0iKBnfIAYYFY?G1
+R14
+R1
+R2
+DEx4 work 15 tb_write_buffer 0 22 ZaWkPJ[?9^zIKFz4g^<`21
+l23
+L10
+V9XlRB3FFPh649OB3Nez1J2
+!s100 YB;Y<f9jQYma`@cMJ;eFj2
+R6
+32
+!s110 1542917141
+!i10b 1
+R69
+R75
+R76
+!i113 1
+R11
+R12
+Euart
+Z78 w1542917229
+R14
+R1
+R2
+R3
+Z79 8Z:\embedded_systems\lab02\uart_pi\hw\hdl\uart.vhd
+Z80 FZ:\embedded_systems\lab02\uart_pi\hw\hdl\uart.vhd
+l0
+L8
+V_8PUeTmgBYikHLR=D0zEm0
+!s100 nYf>oW6@dCDm9FKUm4an53
+R6
+32
+Z81 !s110 1542917233
+!i10b 1
+Z82 !s108 1542917233.000000
+Z83 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:\embedded_systems\lab02\uart_pi\hw\hdl\uart.vhd|
+Z84 !s107 Z:\embedded_systems\lab02\uart_pi\hw\hdl\uart.vhd|
+!i113 1
+R11
+R12
+Asynth
+R14
+R1
+R2
+R65
+l130
+L26
+VMD2C1PPOgzgAQFXQWXW<]2
+!s100 Lf<_7P86nPQm?nSjX0J5o1
+R6
+32
+R81
+!i10b 1
+R82
+R83
+R84
+!i113 1
+R11
+R12
+Ewrite
+Z85 w1542636265
+R14
+R1
+R2
+R3
+Z86 8Z:/embedded_systems/lab02/uart_pi/hw/hdl/write.vhd
+Z87 FZ:/embedded_systems/lab02/uart_pi/hw/hdl/write.vhd
+l0
+L7
+V_>A@VPAYo8l4CYdH;l:5J0
+!s100 0D]=Rm8I`8VY2hV0?RC=M2
+R6
+32
+Z88 !s110 1542917136
+!i10b 1
+Z89 !s108 1542917136.000000
+Z90 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/embedded_systems/lab02/uart_pi/hw/hdl/write.vhd|
+Z91 !s107 Z:/embedded_systems/lab02/uart_pi/hw/hdl/write.vhd|
+!i113 1
+R11
+R12
+Asynth
+R14
+R1
+R2
+R72
+l31
+L23
+VZ9`gUNLb4;U_[LLeXX;2o1
+!s100 `FeF6C2E@EKc;h9Xe?IQ=3
+R6
+32
+R88
+!i10b 1
+R89
+R90
+R91
+!i113 1
+R11
+R12
+Ewrite_buffer
+Z92 w1542841786
+R14
+R1
+R2
+R3
+Z93 8Z:/embedded_systems/lab02/uart_pi/hw/hdl/write_buffer.vhd
+Z94 FZ:/embedded_systems/lab02/uart_pi/hw/hdl/write_buffer.vhd
+l0
+L7
+VCjgCzIc0iKBnfIAYYFY?G1
+!s100 jg;NPCF>hPDIDa]5nLm]P3
+R6
+32
+Z95 !s110 1542917137
+!i10b 1
+R45
+Z96 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/embedded_systems/lab02/uart_pi/hw/hdl/write_buffer.vhd|
+Z97 !s107 Z:/embedded_systems/lab02/uart_pi/hw/hdl/write_buffer.vhd|
+!i113 1
+R11
+R12
+Asynth
+R14
+R1
+R2
+R77
+l30
+L19
+V:LD;@nFIR[IBH1?7D436m3
+!s100 0;zdnCS8:cBD_:X2ZMDRz1
+R6
+32
+R95
+!i10b 1
+R45
+R96
+R97
+!i113 1
+R11
+R12

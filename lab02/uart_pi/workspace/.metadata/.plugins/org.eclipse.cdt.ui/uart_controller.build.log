@@ -1,0 +1,50 @@
+17:36:25 **** Incremental Build of configuration Nios II for project uart_controller ****
+make all 
+Info: Building ../nicolas_peslerbe_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../nicolas_peslerbe_bsp/
+[BSP build complete]
+Info: Compiling uartDrivers.c to obj/default/uartDrivers.o
+nios2-elf-gcc -xc -MP -MMD -c -I../nicolas_peslerbe_bsp//HAL/inc -I../nicolas_peslerbe_bsp/ -I../nicolas_peslerbe_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall   -mno-hw-div -mhw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/uartDrivers.o uartDrivers.c
+Info: Compiling uart_controller.c to obj/default/uart_controller.o
+nios2-elf-gcc -xc -MP -MMD -c -I../nicolas_peslerbe_bsp//HAL/inc -I../nicolas_peslerbe_bsp/ -I../nicolas_peslerbe_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall   -mno-hw-div -mhw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/uart_controller.o uart_controller.c
+uart_controller.c:3:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(void){
+      ^
+uart_controller.c: In function 'main':
+uart_controller.c:4:2: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+  printf("Hello world");
+  ^
+uart_controller.c:4:2: warning: incompatible implicit declaration of built-in function 'printf'
+uart_controller.c:4:2: note: include '<stdio.h>' or provide a declaration of 'printf'
+In file included from uart_controller.c:1:0:
+uartDrivers.h: In function 'read':
+uartDrivers.h:3:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+uartDrivers.h: In function 'write':
+uartDrivers.h:8:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+uartDrivers.h: In function 'state':
+uartDrivers.h:13:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+uartDrivers.h: In function 'bufferContentSize':
+uartDrivers.h:18:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+uartDrivers.h: In function 'setup':
+uartDrivers.h:23:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Info: Linking uart_controller.elf
+nios2-elf-g++  -T'../nicolas_peslerbe_bsp//linker.x' -msys-crt0='../nicolas_peslerbe_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../nicolas_peslerbe_bsp/   -Wl,-Map=uart_controller.map   -O0 -g -Wall   -mno-hw-div -mhw-mul -mno-hw-mulx -mgpopt=global  -o uart_controller.elf obj/default/uartDrivers.o obj/default/uart_controller.o -lm -msys-lib=m
+nios2-elf-insert uart_controller.elf --thread_model hal --cpu_name nios2_gen2_0 --qsys true --simulation_enabled false --id 16711680 --sidp 0x41010 --timestamp 16711680 --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name system --sopcinfo Z:/embedded_systems/lab02/part1/fpga_intro/sw/nios/nicolas_peslerbe_bsp/../../../hw/quartus/system.sopcinfo
+Info: (uart_controller.elf) 67 KBytes program size (code + initialized data).
+Info:                       53 KBytes free for stack + heap.
+Info: Creating uart_controller.objdump
+nios2-elf-objdump --disassemble --syms --all-header uart_controller.elf >uart_controller.objdump
+[uart_controller build complete]
+
+17:36:46 Build Finished (took 20s.980ms)
+

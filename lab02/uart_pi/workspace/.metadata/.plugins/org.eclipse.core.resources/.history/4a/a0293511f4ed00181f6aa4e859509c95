@@ -1,0 +1,29 @@
+#include <stdio.h>
+#include <string.h>
+#include "system.h"
+#include "io.h"
+#include "uartDrivers.h"
+
+int main()
+{
+	printf("Maxime Marchionno and Nicolas Peslerbe super calculator\n");
+	while(1){
+        char values[1000];
+        int i = 0;
+
+	    while(!canRead()){
+            for(i = 0; i < 10000; i++);
+	    }
+	    read(values, 1000);
+
+	    printf("%s\n", values);
+
+	    char string[] = "Thanks for your message\n";
+
+	    writeString(string);
+        for(i = 0; i < 100000; i++);
+
+    }
+
+	return 0;
+}

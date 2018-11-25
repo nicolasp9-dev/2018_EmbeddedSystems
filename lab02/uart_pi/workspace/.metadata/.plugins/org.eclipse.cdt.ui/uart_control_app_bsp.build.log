@@ -1,0 +1,6 @@
+02:26:33 **** Clean-only build of configuration Nios II for project uart_control_app_bsp ****
+make clean 
+[BSP clean complete]
+
+02:26:34 Build Finished (took 1s.500ms)
+

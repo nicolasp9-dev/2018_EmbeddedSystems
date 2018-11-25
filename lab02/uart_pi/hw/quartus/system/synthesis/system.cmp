@@ -1,0 +1,10 @@
+	component system is
+		port (
+			clk_clk                               : in  std_logic                    := 'X'; -- clk
+			homemade_uart_external_connections_tx : out std_logic;                           -- tx
+			homemade_uart_external_connections_rx : in  std_logic                    := 'X'; -- rx
+			pio_0_external_connection_export      : out std_logic_vector(7 downto 0);        -- export
+			reset_reset_n                         : in  std_logic                    := 'X'  -- reset_n
+		);
+	end component system;
+

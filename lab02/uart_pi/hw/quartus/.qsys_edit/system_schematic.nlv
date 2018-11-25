@@ -1,0 +1,23 @@
+# # File gsaved with Nlview version 6.3.8  2013-12-19 bk=1.2992 VDI=34 GEI=35
+# 
+preplace inst system.nios2_gen2_0.cpu -pg 1
+preplace inst system.nios2_gen2_0.clock_bridge -pg 1
+preplace inst system.jtag_uart_0 -pg 1 -lvl 3 -y 210
+preplace inst system.nios2_gen2_0.reset_bridge -pg 1
+preplace inst system.onchip_memory2_0 -pg 1 -lvl 3 -y 130
+preplace inst system.nios2_gen2_0 -pg 1 -lvl 2 -y 200
+preplace inst system.sysid -pg 1 -lvl 3 -y 310
+preplace inst system.homemade_uart -pg 1 -lvl 3 -y 30
+preplace inst system.nios_led -pg 1 -lvl 3 -y 490
+preplace inst system -pg 1 -lvl 1 -y 40 -regy -20
+preplace inst system.clk_0 -pg 1 -lvl 1 -y 350
+preplace netloc EXPORT<net_container>system</net_container>(SLAVE)system.homemade_uart_external_connections,(SLAVE)homemade_uart.external_connections) 1 0 3 NJ 80 NJ 80 NJ
+preplace netloc EXPORT<net_container>system</net_container>(SLAVE)system.clk,(SLAVE)clk_0.clk_in) 1 0 1 NJ
+preplace netloc INTERCONNECT<net_container>system</net_container>(MASTER)nios2_gen2_0.debug_reset_request,(SLAVE)nios_led.reset,(SLAVE)sysid.reset,(SLAVE)homemade_uart.reset,(SLAVE)onchip_memory2_0.reset1,(MASTER)clk_0.clk_reset,(SLAVE)nios2_gen2_0.reset,(SLAVE)jtag_uart_0.reset) 1 1 2 430 540 850
+preplace netloc EXPORT<net_container>system</net_container>(SLAVE)nios_led.external_connection,(SLAVE)system.pio_0_external_connection) 1 0 3 NJ 520 NJ 520 NJ
+preplace netloc FAN_OUT<net_container>system</net_container>(SLAVE)nios2_gen2_0.clk,(SLAVE)onchip_memory2_0.clk1,(MASTER)clk_0.clk,(SLAVE)jtag_uart_0.clk,(SLAVE)nios_led.clk,(SLAVE)sysid.clk,(SLAVE)homemade_uart.clock) 1 1 2 410 360 890
+preplace netloc POINT_TO_POINT<net_container>system</net_container>(SLAVE)jtag_uart_0.irq,(MASTER)nios2_gen2_0.irq) 1 2 1 870
+preplace netloc EXPORT<net_container>system</net_container>(SLAVE)clk_0.clk_in_reset,(SLAVE)system.reset) 1 0 1 NJ
+preplace netloc INTERCONNECT<net_container>system</net_container>(SLAVE)nios2_gen2_0.debug_mem_slave,(SLAVE)homemade_uart.avalon_slave_0,(SLAVE)onchip_memory2_0.s1,(SLAVE)nios_led.s1,(MASTER)nios2_gen2_0.data_master,(SLAVE)jtag_uart_0.avalon_jtag_slave,(MASTER)nios2_gen2_0.instruction_master,(SLAVE)sysid.control_slave) 1 1 2 450 560 830
+levelinfo -pg 1 0 200 1130
+levelinfo -hier system 210 240 590 960 1120

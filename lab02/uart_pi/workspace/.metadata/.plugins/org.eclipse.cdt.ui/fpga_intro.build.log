@@ -1,0 +1,34 @@
+17:20:27 **** Incremental Build of configuration Nios II for project fpga_intro ****
+make all 
+Info: Building Z:/embedded_systems/lab02/part1/fpga_intro/sw/nios/fpga_intro_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C Z:/embedded_systems/lab02/part1/fpga_intro/sw/nios/fpga_intro_bsp/
+[BSP build complete]
+Info: Compiling hello_world.c to obj/default/hello_world.o
+nios2-elf-gcc -xc -MP -MMD -c -IZ:/embedded_systems/lab02/part1/fpga_intro/sw/nios/fpga_intro_bsp//HAL/inc -IZ:/embedded_systems/lab02/part1/fpga_intro/sw/nios/fpga_intro_bsp/ -IZ:/embedded_systems/lab02/part1/fpga_intro/sw/nios/fpga_intro_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall   -mno-hw-div -mhw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world.o hello_world.c
+In file included from hello_world.c:4:0:
+hello_world.c: In function 'main':
+hello_world.c:12:43: error: 'PIO_0_BASE' undeclared (first use in this function)
+         uint32_t pio_data = IORD_32DIRECT(PIO_0_BASE, 0);
+                                           ^
+z:\embedded_systems\lab02\part1\fpga_intro\sw\nios\fpga_intro_bsp\hal\inc\io.h:51:23: note: in definition of macro '__IO_CALC_ADDRESS_DYNAMIC'
+   ((void *)(((alt_u8*)BASE) + (OFFSET)))
+                       ^
+hello_world.c:12:29: note: in expansion of macro 'IORD_32DIRECT'
+         uint32_t pio_data = IORD_32DIRECT(PIO_0_BASE, 0);
+                             ^
+hello_world.c:12:43: note: each undeclared identifier is reported only once for each function it appears in
+         uint32_t pio_data = IORD_32DIRECT(PIO_0_BASE, 0);
+                                           ^
+z:\embedded_systems\lab02\part1\fpga_intro\sw\nios\fpga_intro_bsp\hal\inc\io.h:51:23: note: in definition of macro '__IO_CALC_ADDRESS_DYNAMIC'
+   ((void *)(((alt_u8*)BASE) + (OFFSET)))
+                       ^
+hello_world.c:12:29: note: in expansion of macro 'IORD_32DIRECT'
+         uint32_t pio_data = IORD_32DIRECT(PIO_0_BASE, 0);
+                             ^
+hello_world.c:12:18: warning: unused variable 'pio_data' [-Wunused-variable]
+         uint32_t pio_data = IORD_32DIRECT(PIO_0_BASE, 0);
+                  ^
+make: *** [obj/default/hello_world.o] Error 1
+
+17:20:47 Build Finished (took 20s.528ms)
+

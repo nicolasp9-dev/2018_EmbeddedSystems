@@ -1,0 +1,39 @@
+#include "uartDrivers.h"
+#include "system.h"
+
+
+int read(char * values, int numberMaxToRead){
+	if(IORD_32DIRECT(HOMEMADE_UART_BASE, (3<<2)) == 0) return 0;
+	int i = 0;
+	int pointer = 0;
+	do{
+		values[pointer] = IORD_32DIRECT(HOMEMADE_UART_BASE, (1<<2));
+		pointer++;
+		for(i = 0; i < 10000; i++);
+	} while((IORD_32DIRECT(HOMEMADE_UART_BASE, (3<<2)) == 1) && (pointer < (numberMaxToRead-1)));
+	values[pointer] = '\0';
+	return pointer+1;
+}
+
+
+void write(char* toWrite, int numberOfCharacters){
+	int i;
+	for(i=0; i < numberOfCharacters; i++){
+		IOWR_32DIRECT(HOMEMADE_UART_BASE, (2<<2),toWrite[i]);
+	}
+}
+
+
+int state(){
+	return IORD_32DIRECT(HOMEMADE_UART_BASE, (3<<2));
+}
+
+/**
+ * Return the buffer contentSize
+ */
+int bufferContentSize();
+
+/**
+ *
+ */
+int setup(int wordLength, int rate, int parity);
