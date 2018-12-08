@@ -66,7 +66,21 @@ module video_interface_sys (
 	hps_0_io_hps_io_gpio_inst_GPIO54,
 	hps_0_io_hps_io_gpio_inst_GPIO61,
 	pio_leds_external_connection_export,
-	reset_reset_n);	
+	reset_reset_n,
+	i2c_0_i2c_scl,
+	i2c_0_i2c_sda,
+	camera_control_0_camera_sensor_cam_data,
+	camera_control_0_camera_sensor_cam_lvalid,
+	camera_control_0_camera_sensor_cam_pixelclk,
+	camera_control_0_camera_sensor_cam_reset_n,
+	camera_control_0_camera_sensor_cam_fvalid,
+	lcd_control_0_lcd_screen_signals_cs_n,
+	lcd_control_0_lcd_screen_signals_lcd_data,
+	lcd_control_0_lcd_screen_signals_lcd_on,
+	lcd_control_0_lcd_screen_signals_lcd_reset_n,
+	lcd_control_0_lcd_screen_signals_rd_n,
+	lcd_control_0_lcd_screen_signals_rs,
+	lcd_control_0_lcd_screen_signals_wr_n);	
 
 	input		clk_clk;
 	output	[14:0]	hps_0_ddr_mem_a;
@@ -135,4 +149,18 @@ module video_interface_sys (
 	inout		hps_0_io_hps_io_gpio_inst_GPIO61;
 	output	[7:0]	pio_leds_external_connection_export;
 	input		reset_reset_n;
+	inout		i2c_0_i2c_scl;
+	inout		i2c_0_i2c_sda;
+	input	[11:0]	camera_control_0_camera_sensor_cam_data;
+	input		camera_control_0_camera_sensor_cam_lvalid;
+	input		camera_control_0_camera_sensor_cam_pixelclk;
+	output		camera_control_0_camera_sensor_cam_reset_n;
+	input		camera_control_0_camera_sensor_cam_fvalid;
+	output		lcd_control_0_lcd_screen_signals_cs_n;
+	output	[15:0]	lcd_control_0_lcd_screen_signals_lcd_data;
+	output		lcd_control_0_lcd_screen_signals_lcd_on;
+	output		lcd_control_0_lcd_screen_signals_lcd_reset_n;
+	output		lcd_control_0_lcd_screen_signals_rd_n;
+	output		lcd_control_0_lcd_screen_signals_rs;
+	output		lcd_control_0_lcd_screen_signals_wr_n;
 endmodule
