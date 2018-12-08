@@ -178,27 +178,29 @@ begin
             wait for 105 us;
         end loop;
 
-        address <= std_logic_vector(to_unsigned(1, 2));
+        address <= std_logic_vector(to_unsigned(3, 2));
         read <= '1';
         wait for CLK_PERIOD;
         ASSERT read_value = std_logic_vector(to_unsigned(1, 32))
             REPORT "Buffer flag is not 1"
             SEVERITY ERROR;
         read <= '0';
-
+        wait for 3 * CLK_PERIOD;
         REPORT "******* Will check received data *******" SEVERITY NOTE;
 
         wait until rising_edge(clk);
-        wait for CLK_PERIOD * 3 / 2;
-        address <= std_logic_vector(to_unsigned(3, 2));
+        wait for CLK_PERIOD * 2;
+        address <= std_logic_vector(to_unsigned(1, 2));
         for i in 0 to 50 loop
             read <= '1';
+            wait for CLK_PERIOD;
             check_value <= std_logic_vector(to_unsigned(i * 4, 32));
+            read <= '0';
             wait for CLK_PERIOD;
             ASSERT read_value = check_value
                 REPORT "Read data in buffer incorrect"
                 SEVERITY ERROR;
-            read <= '0';
+
             wait for CLK_PERIOD;
         end loop;
 

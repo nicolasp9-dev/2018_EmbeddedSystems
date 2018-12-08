@@ -21,9 +21,9 @@ V=EIJ_a1D29?kM3;DHo91H1
 !s100 ?9mJc9T1iL5bM5zFW[f^E1
 Z6 OV;C;10.5b;63
 32
-Z7 !s110 1542917133
+Z7 !s110 1543194479
 !i10b 1
-Z8 !s108 1542917133.000000
+Z8 !s108 1543194479.000000
 Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/embedded_systems/lab02/uart_pi/hw/hdl/DE0_Nano_SoC_top_level.vhd|
 Z10 !s107 Z:/embedded_systems/lab02/uart_pi/hw/hdl/DE0_Nano_SoC_top_level.vhd|
 !i113 1
@@ -61,7 +61,7 @@ VhQE16e?_Mmi^d;^PCT3^H2
 !s100 a`;l952@O:Re`d42UaZ1S0
 R6
 32
-Z17 !s110 1542917134
+Z17 !s110 1543194480
 !i10b 1
 R8
 Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/embedded_systems/lab02/uart_pi/hw/hdl/flags.vhd|
@@ -104,7 +104,7 @@ R6
 32
 R17
 !i10b 1
-Z23 !s108 1542917134.000000
+Z23 !s108 1543194480.000000
 Z24 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/embedded_systems/lab02/uart_pi/hw/hdl/read.vhd|
 Z25 !s107 Z:/embedded_systems/lab02/uart_pi/hw/hdl/read.vhd|
 !i113 1
@@ -135,19 +135,19 @@ R14
 R1
 R2
 R3
-Z28 8Z:\embedded_systems\lab02\uart_pi\hw\hdl\read_buffer.vhd
-Z29 FZ:\embedded_systems\lab02\uart_pi\hw\hdl\read_buffer.vhd
+Z28 8Z:/embedded_systems/lab02/uart_pi/hw/hdl/read_buffer.vhd
+Z29 FZ:/embedded_systems/lab02/uart_pi/hw/hdl/read_buffer.vhd
 l0
 L7
 V[7W`LR]ImddM;iGaMA2W<0
 !s100 UFna]<O`z3?23Z=g_f2Va0
 R6
 32
-Z30 !s110 1542917135
+Z30 !s110 1543194481
 !i10b 1
-R23
-Z31 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:\embedded_systems\lab02\uart_pi\hw\hdl\read_buffer.vhd|
-Z32 !s107 Z:\embedded_systems\lab02\uart_pi\hw\hdl\read_buffer.vhd|
+Z31 !s108 1543194481.000000
+Z32 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/embedded_systems/lab02/uart_pi/hw/hdl/read_buffer.vhd|
+Z33 !s107 Z:/embedded_systems/lab02/uart_pi/hw/hdl/read_buffer.vhd|
 !i113 1
 R11
 R12
@@ -155,7 +155,7 @@ Asynth
 R14
 R1
 R2
-Z33 DEx4 work 11 read_buffer 0 22 [7W`LR]ImddM;iGaMA2W<0
+Z34 DEx4 work 11 read_buffer 0 22 [7W`LR]ImddM;iGaMA2W<0
 l28
 L19
 VBLcX<QSKo9S04Wc[L`YL80
@@ -164,19 +164,19 @@ R6
 32
 R30
 !i10b 1
-R23
 R31
 R32
+R33
 !i113 1
 R11
 R12
 Esetup
-Z34 w1542659371
+Z35 w1542659371
 R1
 R2
 R3
-Z35 8Z:/embedded_systems/lab02/uart_pi/hw/hdl/setup.vhd
-Z36 FZ:/embedded_systems/lab02/uart_pi/hw/hdl/setup.vhd
+Z36 8Z:/embedded_systems/lab02/uart_pi/hw/hdl/setup.vhd
+Z37 FZ:/embedded_systems/lab02/uart_pi/hw/hdl/setup.vhd
 l0
 L6
 VInjT7fH970BmjR6Ti0a;a3
@@ -185,7 +185,7 @@ R6
 32
 R30
 !i10b 1
-Z37 !s108 1542917135.000000
+R31
 Z38 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/embedded_systems/lab02/uart_pi/hw/hdl/setup.vhd|
 Z39 !s107 Z:/embedded_systems/lab02/uart_pi/hw/hdl/setup.vhd|
 !i113 1
@@ -203,7 +203,7 @@ R6
 32
 R30
 !i10b 1
-R37
+R31
 R38
 R39
 !i113 1
@@ -223,9 +223,9 @@ VX14Mk1k?jZ9a4kR[h3[Rb2
 !s100 >H<3?4I[S^h1ZOo@gXhWi3
 R6
 32
-Z44 !s110 1542917138
+Z44 !s110 1543194484
 !i10b 1
-Z45 !s108 1542917137.000000
+Z45 !s108 1543194484.000000
 Z46 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/embedded_systems/lab02/uart_pi/hw/testbench/tb_read.vhd|
 Z47 !s107 Z:/embedded_systems/lab02/uart_pi/hw/testbench/tb_read.vhd|
 !i113 1
@@ -267,14 +267,14 @@ R6
 32
 R44
 !i10b 1
-Z51 !s108 1542917138.000000
-Z52 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/embedded_systems/lab02/uart_pi/hw/testbench/tb_read_buffer.vhd|
-Z53 !s107 Z:/embedded_systems/lab02/uart_pi/hw/testbench/tb_read_buffer.vhd|
+R45
+Z51 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/embedded_systems/lab02/uart_pi/hw/testbench/tb_read_buffer.vhd|
+Z52 !s107 Z:/embedded_systems/lab02/uart_pi/hw/testbench/tb_read_buffer.vhd|
 !i113 1
 R11
 R12
 Atestbench
-R33
+R34
 R14
 R1
 R2
@@ -287,9 +287,9 @@ R6
 32
 R44
 !i10b 1
+R45
 R51
 R52
-R53
 !i113 1
 R11
 R12
@@ -299,19 +299,19 @@ R14
 R1
 R2
 R3
-Z54 8Z:/embedded_systems/lab02/uart_pi/hw/testbench/tb_setup.vhd
-Z55 FZ:/embedded_systems/lab02/uart_pi/hw/testbench/tb_setup.vhd
+Z53 8Z:/embedded_systems/lab02/uart_pi/hw/testbench/tb_setup.vhd
+Z54 FZ:/embedded_systems/lab02/uart_pi/hw/testbench/tb_setup.vhd
 l0
 L7
 V9lKI3AIRZScL]]HnRJae12
 !s100 ihj1YAnjb_CiV0z__PWbW2
 R6
 32
-Z56 !s110 1542917139
+Z55 !s110 1543194485
 !i10b 1
-Z57 !s108 1542917139.000000
-Z58 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/embedded_systems/lab02/uart_pi/hw/testbench/tb_setup.vhd|
-Z59 !s107 Z:/embedded_systems/lab02/uart_pi/hw/testbench/tb_setup.vhd|
+Z56 !s108 1543194485.000000
+Z57 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/embedded_systems/lab02/uart_pi/hw/testbench/tb_setup.vhd|
+Z58 !s107 Z:/embedded_systems/lab02/uart_pi/hw/testbench/tb_setup.vhd|
 !i113 1
 R11
 R12
@@ -327,53 +327,53 @@ Ve`o^mhgkd6TWl0`oDmFJH1
 !s100 ::=ln[NcGN>_FkW_7Q]^[2
 R6
 32
-R56
+R55
 !i10b 1
+R56
 R57
 R58
-R59
 !i113 1
 R11
 R12
 Etb_uart
-Z60 w1542658773
+Z59 w1543194475
 R14
 R1
 R2
 R3
-Z61 8Z:/embedded_systems/lab02/uart_pi/hw/testbench/tb_uart.vhd
-Z62 FZ:/embedded_systems/lab02/uart_pi/hw/testbench/tb_uart.vhd
+Z60 8Z:/embedded_systems/lab02/uart_pi/hw/testbench/tb_uart.vhd
+Z61 FZ:/embedded_systems/lab02/uart_pi/hw/testbench/tb_uart.vhd
 l0
 L7
 V>OB:fT?b=DY`ZfPjo2Y?31
 !s100 _H8W^FBEhL>f<MjaG@z?=1
 R6
 32
-R56
+R55
 !i10b 1
-R57
-Z63 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/embedded_systems/lab02/uart_pi/hw/testbench/tb_uart.vhd|
-Z64 !s107 Z:/embedded_systems/lab02/uart_pi/hw/testbench/tb_uart.vhd|
+R56
+Z62 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/embedded_systems/lab02/uart_pi/hw/testbench/tb_uart.vhd|
+Z63 !s107 Z:/embedded_systems/lab02/uart_pi/hw/testbench/tb_uart.vhd|
 !i113 1
 R11
 R12
 Atestbench
-Z65 DEx4 work 4 uart 0 22 _8PUeTmgBYikHLR=D0zEm0
+Z64 DEx4 work 4 uart 0 22 _8PUeTmgBYikHLR=D0zEm0
 R14
 R1
 R2
 DEx4 work 7 tb_uart 0 22 >OB:fT?b=DY`ZfPjo2Y?31
 l31
 L10
-V<0^5a6hGkS;eP^[AeUMN91
-!s100 VR7fV3z<naaJfg[3oTHM=1
+VzobF_WkoYCBA0R]j3_UKV1
+!s100 B45:IX9RVn3OYoj3Ic5Zf1
 R6
 32
-R56
+R55
 !i10b 1
-R57
+R56
+R62
 R63
-R64
 !i113 1
 R11
 R12
@@ -383,24 +383,24 @@ R14
 R1
 R2
 R3
-Z66 8Z:/embedded_systems/lab02/uart_pi/hw/testbench/tb_write.vhd
-Z67 FZ:/embedded_systems/lab02/uart_pi/hw/testbench/tb_write.vhd
+Z65 8Z:/embedded_systems/lab02/uart_pi/hw/testbench/tb_write.vhd
+Z66 FZ:/embedded_systems/lab02/uart_pi/hw/testbench/tb_write.vhd
 l0
 L7
 VZ29fX5B>Cddjec?KZVoDR2
 !s100 :VKZh1Y?6g`KodEe_aZHg1
 R6
 32
-Z68 !s110 1542917140
+Z67 !s110 1543194486
 !i10b 1
-Z69 !s108 1542917140.000000
-Z70 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/embedded_systems/lab02/uart_pi/hw/testbench/tb_write.vhd|
-Z71 !s107 Z:/embedded_systems/lab02/uart_pi/hw/testbench/tb_write.vhd|
+Z68 !s108 1543194486.000000
+Z69 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/embedded_systems/lab02/uart_pi/hw/testbench/tb_write.vhd|
+Z70 !s107 Z:/embedded_systems/lab02/uart_pi/hw/testbench/tb_write.vhd|
 !i113 1
 R11
 R12
 Atestbench
-Z72 DEx4 work 5 write 0 22 _>A@VPAYo8l4CYdH;l:5J0
+Z71 DEx4 work 5 write 0 22 _>A@VPAYo8l4CYdH;l:5J0
 R14
 R1
 R2
@@ -411,11 +411,11 @@ V3]d^^6E1<A0I0[0ijloo?3
 !s100 8`B=EGgWB]B89dohQRl^e0
 R6
 32
-R68
+R67
 !i10b 1
+R68
 R69
 R70
-R71
 !i113 1
 R11
 R12
@@ -425,61 +425,61 @@ R14
 R1
 R2
 R3
-Z73 8Z:/embedded_systems/lab02/uart_pi/hw/testbench/tb_write_buffer.vhd
-Z74 FZ:/embedded_systems/lab02/uart_pi/hw/testbench/tb_write_buffer.vhd
+Z72 8Z:/embedded_systems/lab02/uart_pi/hw/testbench/tb_write_buffer.vhd
+Z73 FZ:/embedded_systems/lab02/uart_pi/hw/testbench/tb_write_buffer.vhd
 l0
 L7
 VZaWkPJ[?9^zIKFz4g^<`21
 !s100 1LVDh[4>EOa0<mX?iC45R1
 R6
 32
-R68
+R67
 !i10b 1
-R69
-Z75 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/embedded_systems/lab02/uart_pi/hw/testbench/tb_write_buffer.vhd|
-Z76 !s107 Z:/embedded_systems/lab02/uart_pi/hw/testbench/tb_write_buffer.vhd|
+R68
+Z74 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/embedded_systems/lab02/uart_pi/hw/testbench/tb_write_buffer.vhd|
+Z75 !s107 Z:/embedded_systems/lab02/uart_pi/hw/testbench/tb_write_buffer.vhd|
 !i113 1
 R11
 R12
 Atestbench
-Z77 DEx4 work 12 write_buffer 0 22 CjgCzIc0iKBnfIAYYFY?G1
+Z76 DEx4 work 12 write_buffer 0 22 CjgCzIc0iKBnfIAYYFY?G1
 R14
 R1
 R2
-DEx4 work 15 tb_write_buffer 0 22 ZaWkPJ[?9^zIKFz4g^<`21
+Z77 DEx4 work 15 tb_write_buffer 0 22 ZaWkPJ[?9^zIKFz4g^<`21
 l23
 L10
-V9XlRB3FFPh649OB3Nez1J2
-!s100 YB;Y<f9jQYma`@cMJ;eFj2
+Z78 V9XlRB3FFPh649OB3Nez1J2
+Z79 !s100 YB;Y<f9jQYma`@cMJ;eFj2
 R6
 32
-!s110 1542917141
+R67
 !i10b 1
-R69
+R68
+R74
 R75
-R76
 !i113 1
 R11
 R12
 Euart
-Z78 w1542917229
+Z80 w1542926696
 R14
 R1
 R2
 R3
-Z79 8Z:\embedded_systems\lab02\uart_pi\hw\hdl\uart.vhd
-Z80 FZ:\embedded_systems\lab02\uart_pi\hw\hdl\uart.vhd
+Z81 8Z:/embedded_systems/lab02/uart_pi/hw/hdl/uart.vhd
+Z82 FZ:/embedded_systems/lab02/uart_pi/hw/hdl/uart.vhd
 l0
 L8
 V_8PUeTmgBYikHLR=D0zEm0
 !s100 nYf>oW6@dCDm9FKUm4an53
 R6
 32
-Z81 !s110 1542917233
+Z83 !s110 1543194482
 !i10b 1
-Z82 !s108 1542917233.000000
-Z83 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:\embedded_systems\lab02\uart_pi\hw\hdl\uart.vhd|
-Z84 !s107 Z:\embedded_systems\lab02\uart_pi\hw\hdl\uart.vhd|
+Z84 !s108 1543194482.000000
+Z85 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/embedded_systems/lab02/uart_pi/hw/hdl/uart.vhd|
+Z86 !s107 Z:/embedded_systems/lab02/uart_pi/hw/hdl/uart.vhd|
 !i113 1
 R11
 R12
@@ -487,38 +487,38 @@ Asynth
 R14
 R1
 R2
-R65
+R64
 l130
 L26
-VMD2C1PPOgzgAQFXQWXW<]2
-!s100 Lf<_7P86nPQm?nSjX0J5o1
+VcL;oSEQT`5Y59H289:]G31
+!s100 ^?c=bEWVF9WmeZn>G<[lj2
 R6
 32
-R81
-!i10b 1
-R82
 R83
+!i10b 1
 R84
+R85
+R86
 !i113 1
 R11
 R12
 Ewrite
-Z85 w1542636265
+Z87 w1542636265
 R14
 R1
 R2
 R3
-Z86 8Z:/embedded_systems/lab02/uart_pi/hw/hdl/write.vhd
-Z87 FZ:/embedded_systems/lab02/uart_pi/hw/hdl/write.vhd
+Z88 8Z:/embedded_systems/lab02/uart_pi/hw/hdl/write.vhd
+Z89 FZ:/embedded_systems/lab02/uart_pi/hw/hdl/write.vhd
 l0
 L7
 V_>A@VPAYo8l4CYdH;l:5J0
 !s100 0D]=Rm8I`8VY2hV0?RC=M2
 R6
 32
-Z88 !s110 1542917136
+R83
 !i10b 1
-Z89 !s108 1542917136.000000
+R84
 Z90 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/embedded_systems/lab02/uart_pi/hw/hdl/write.vhd|
 Z91 !s107 Z:/embedded_systems/lab02/uart_pi/hw/hdl/write.vhd|
 !i113 1
@@ -528,16 +528,16 @@ Asynth
 R14
 R1
 R2
-R72
+R71
 l31
 L23
 VZ9`gUNLb4;U_[LLeXX;2o1
 !s100 `FeF6C2E@EKc;h9Xe?IQ=3
 R6
 32
-R88
+R83
 !i10b 1
-R89
+R84
 R90
 R91
 !i113 1
@@ -557,11 +557,11 @@ VCjgCzIc0iKBnfIAYYFY?G1
 !s100 jg;NPCF>hPDIDa]5nLm]P3
 R6
 32
-Z95 !s110 1542917137
+Z95 !s110 1543194483
 !i10b 1
-R45
-Z96 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/embedded_systems/lab02/uart_pi/hw/hdl/write_buffer.vhd|
-Z97 !s107 Z:/embedded_systems/lab02/uart_pi/hw/hdl/write_buffer.vhd|
+Z96 !s108 1543194483.000000
+Z97 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Z:/embedded_systems/lab02/uart_pi/hw/hdl/write_buffer.vhd|
+Z98 !s107 Z:/embedded_systems/lab02/uart_pi/hw/hdl/write_buffer.vhd|
 !i113 1
 R11
 R12
@@ -569,7 +569,7 @@ Asynth
 R14
 R1
 R2
-R77
+R76
 l30
 L19
 V:LD;@nFIR[IBH1?7D436m3
@@ -578,9 +578,9 @@ R6
 32
 R95
 !i10b 1
-R45
 R96
 R97
+R98
 !i113 1
 R11
 R12
