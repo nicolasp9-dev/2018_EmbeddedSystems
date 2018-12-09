@@ -680,7 +680,7 @@ refer to the applicable agreement for further details.
 		(text "export" (rect 277 1195 590 2400)(font "Arial" (color 0 0 0)))
 		(text "reset" (rect 243 1211 516 2435)(font "Arial" (color 128 0 0)(font_size 9)))
 		(text "reset_n" (rect 277 1235 596 2480)(font "Arial" (color 0 0 0)))
-		(text " video_interface_sys " (rect 660 1256 1446 2522)(font "Arial" ))
+		(text " system " (rect 717 1256 1482 2522)(font "Arial" ))
 		(line (pt 272 32)(pt 480 32)(line_width 1))
 		(line (pt 480 32)(pt 480 1256)(line_width 1))
 		(line (pt 272 1256)(pt 480 1256)(line_width 1))

@@ -1,5 +1,10 @@
 	component video_interface_sys is
 		port (
+			camera_control_0_camera_sensor_cam_data      : in    std_logic_vector(11 downto 0) := (others => 'X'); -- cam_data
+			camera_control_0_camera_sensor_cam_lvalid    : in    std_logic                     := 'X';             -- cam_lvalid
+			camera_control_0_camera_sensor_cam_pixelclk  : in    std_logic                     := 'X';             -- cam_pixelclk
+			camera_control_0_camera_sensor_cam_reset_n   : out   std_logic;                                        -- cam_reset_n
+			camera_control_0_camera_sensor_cam_fvalid    : in    std_logic                     := 'X';             -- cam_fvalid
 			clk_clk                                      : in    std_logic                     := 'X';             -- clk
 			hps_0_ddr_mem_a                              : out   std_logic_vector(14 downto 0);                    -- mem_a
 			hps_0_ddr_mem_ba                             : out   std_logic_vector(2 downto 0);                     -- mem_ba
@@ -65,27 +70,27 @@
 			hps_0_io_hps_io_gpio_inst_GPIO53             : inout std_logic                     := 'X';             -- hps_io_gpio_inst_GPIO53
 			hps_0_io_hps_io_gpio_inst_GPIO54             : inout std_logic                     := 'X';             -- hps_io_gpio_inst_GPIO54
 			hps_0_io_hps_io_gpio_inst_GPIO61             : inout std_logic                     := 'X';             -- hps_io_gpio_inst_GPIO61
-			pio_leds_external_connection_export          : out   std_logic_vector(7 downto 0);                     -- export
-			reset_reset_n                                : in    std_logic                     := 'X';             -- reset_n
 			i2c_0_i2c_scl                                : inout std_logic                     := 'X';             -- scl
 			i2c_0_i2c_sda                                : inout std_logic                     := 'X';             -- sda
-			camera_control_0_camera_sensor_cam_data      : in    std_logic_vector(11 downto 0) := (others => 'X'); -- cam_data
-			camera_control_0_camera_sensor_cam_lvalid    : in    std_logic                     := 'X';             -- cam_lvalid
-			camera_control_0_camera_sensor_cam_pixelclk  : in    std_logic                     := 'X';             -- cam_pixelclk
-			camera_control_0_camera_sensor_cam_reset_n   : out   std_logic;                                        -- cam_reset_n
-			camera_control_0_camera_sensor_cam_fvalid    : in    std_logic                     := 'X';             -- cam_fvalid
 			lcd_control_0_lcd_screen_signals_cs_n        : out   std_logic;                                        -- cs_n
 			lcd_control_0_lcd_screen_signals_lcd_data    : out   std_logic_vector(15 downto 0);                    -- lcd_data
 			lcd_control_0_lcd_screen_signals_lcd_on      : out   std_logic;                                        -- lcd_on
 			lcd_control_0_lcd_screen_signals_lcd_reset_n : out   std_logic;                                        -- lcd_reset_n
 			lcd_control_0_lcd_screen_signals_rd_n        : out   std_logic;                                        -- rd_n
 			lcd_control_0_lcd_screen_signals_rs          : out   std_logic;                                        -- rs
-			lcd_control_0_lcd_screen_signals_wr_n        : out   std_logic                                         -- wr_n
+			lcd_control_0_lcd_screen_signals_wr_n        : out   std_logic;                                        -- wr_n
+			pio_leds_external_connection_export          : out   std_logic_vector(7 downto 0);                     -- export
+			reset_reset_n                                : in    std_logic                     := 'X'              -- reset_n
 		);
 	end component video_interface_sys;
 
 	u0 : component video_interface_sys
 		port map (
+			camera_control_0_camera_sensor_cam_data      => CONNECTED_TO_camera_control_0_camera_sensor_cam_data,      --   camera_control_0_camera_sensor.cam_data
+			camera_control_0_camera_sensor_cam_lvalid    => CONNECTED_TO_camera_control_0_camera_sensor_cam_lvalid,    --                                 .cam_lvalid
+			camera_control_0_camera_sensor_cam_pixelclk  => CONNECTED_TO_camera_control_0_camera_sensor_cam_pixelclk,  --                                 .cam_pixelclk
+			camera_control_0_camera_sensor_cam_reset_n   => CONNECTED_TO_camera_control_0_camera_sensor_cam_reset_n,   --                                 .cam_reset_n
+			camera_control_0_camera_sensor_cam_fvalid    => CONNECTED_TO_camera_control_0_camera_sensor_cam_fvalid,    --                                 .cam_fvalid
 			clk_clk                                      => CONNECTED_TO_clk_clk,                                      --                              clk.clk
 			hps_0_ddr_mem_a                              => CONNECTED_TO_hps_0_ddr_mem_a,                              --                        hps_0_ddr.mem_a
 			hps_0_ddr_mem_ba                             => CONNECTED_TO_hps_0_ddr_mem_ba,                             --                                 .mem_ba
@@ -151,21 +156,16 @@
 			hps_0_io_hps_io_gpio_inst_GPIO53             => CONNECTED_TO_hps_0_io_hps_io_gpio_inst_GPIO53,             --                                 .hps_io_gpio_inst_GPIO53
 			hps_0_io_hps_io_gpio_inst_GPIO54             => CONNECTED_TO_hps_0_io_hps_io_gpio_inst_GPIO54,             --                                 .hps_io_gpio_inst_GPIO54
 			hps_0_io_hps_io_gpio_inst_GPIO61             => CONNECTED_TO_hps_0_io_hps_io_gpio_inst_GPIO61,             --                                 .hps_io_gpio_inst_GPIO61
-			pio_leds_external_connection_export          => CONNECTED_TO_pio_leds_external_connection_export,          --     pio_leds_external_connection.export
-			reset_reset_n                                => CONNECTED_TO_reset_reset_n,                                --                            reset.reset_n
 			i2c_0_i2c_scl                                => CONNECTED_TO_i2c_0_i2c_scl,                                --                        i2c_0_i2c.scl
 			i2c_0_i2c_sda                                => CONNECTED_TO_i2c_0_i2c_sda,                                --                                 .sda
-			camera_control_0_camera_sensor_cam_data      => CONNECTED_TO_camera_control_0_camera_sensor_cam_data,      --   camera_control_0_camera_sensor.cam_data
-			camera_control_0_camera_sensor_cam_lvalid    => CONNECTED_TO_camera_control_0_camera_sensor_cam_lvalid,    --                                 .cam_lvalid
-			camera_control_0_camera_sensor_cam_pixelclk  => CONNECTED_TO_camera_control_0_camera_sensor_cam_pixelclk,  --                                 .cam_pixelclk
-			camera_control_0_camera_sensor_cam_reset_n   => CONNECTED_TO_camera_control_0_camera_sensor_cam_reset_n,   --                                 .cam_reset_n
-			camera_control_0_camera_sensor_cam_fvalid    => CONNECTED_TO_camera_control_0_camera_sensor_cam_fvalid,    --                                 .cam_fvalid
 			lcd_control_0_lcd_screen_signals_cs_n        => CONNECTED_TO_lcd_control_0_lcd_screen_signals_cs_n,        -- lcd_control_0_lcd_screen_signals.cs_n
 			lcd_control_0_lcd_screen_signals_lcd_data    => CONNECTED_TO_lcd_control_0_lcd_screen_signals_lcd_data,    --                                 .lcd_data
 			lcd_control_0_lcd_screen_signals_lcd_on      => CONNECTED_TO_lcd_control_0_lcd_screen_signals_lcd_on,      --                                 .lcd_on
 			lcd_control_0_lcd_screen_signals_lcd_reset_n => CONNECTED_TO_lcd_control_0_lcd_screen_signals_lcd_reset_n, --                                 .lcd_reset_n
 			lcd_control_0_lcd_screen_signals_rd_n        => CONNECTED_TO_lcd_control_0_lcd_screen_signals_rd_n,        --                                 .rd_n
 			lcd_control_0_lcd_screen_signals_rs          => CONNECTED_TO_lcd_control_0_lcd_screen_signals_rs,          --                                 .rs
-			lcd_control_0_lcd_screen_signals_wr_n        => CONNECTED_TO_lcd_control_0_lcd_screen_signals_wr_n         --                                 .wr_n
+			lcd_control_0_lcd_screen_signals_wr_n        => CONNECTED_TO_lcd_control_0_lcd_screen_signals_wr_n,        --                                 .wr_n
+			pio_leds_external_connection_export          => CONNECTED_TO_pio_leds_external_connection_export,          --     pio_leds_external_connection.export
+			reset_reset_n                                => CONNECTED_TO_reset_reset_n                                 --                            reset.reset_n
 		);
 

@@ -2,84 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4208f494-c13e-4246-8a57-8cdd4293d1e3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../video_system/hw/hdl/lcd_control.vhd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../video_system/sw/nios/application/camera_ctrl.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../video_system/sw/nios/application/camera_ctrl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../video_system/sw/nios/application/video_system.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../video_system/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../video_system/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../video_system/hw/hdl/camera_control.vhd" beforeDir="false" afterPath="$PROJECT_DIR$/../video_system/hw/hdl/camera_control.vhd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../video_system/hw/hdl/DE0_Nano_SoC_TRDB_D5M_LT24_top_level.vhd" beforeDir="false" afterPath="$PROJECT_DIR$/../video_system/hw/hdl/DE0_Nano_SoC_TRDB_D5M_LT24_top_level.vhd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../video_system/hw/quartus/.qsys_edit/preferences.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../video_system/hw/quartus/.qsys_edit/preferences.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../video_system/hw/quartus/.qsys_edit/video_interface_sys.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../video_system/hw/quartus/.qsys_edit/video_interface_sys.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../video_system/hw/quartus/.qsys_edit/video_interface_sys_schematic.nlv" beforeDir="false" afterPath="$PROJECT_DIR$/../video_system/hw/quartus/.qsys_edit/video_interface_sys_schematic.nlv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../video_system/hw/quartus/video_interface_complete.qsf" beforeDir="false" afterPath="$PROJECT_DIR$/../video_system/hw/quartus/video_interface_complete.qsf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../video_system/hw/quartus/video_interface_sys/video_interface_sys.bsf" beforeDir="false" afterPath="$PROJECT_DIR$/../video_system/hw/quartus/video_interface_sys/video_interface_sys.bsf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../video_system/hw/quartus/video_interface_sys/video_interface_sys_bb.v" beforeDir="false" afterPath="$PROJECT_DIR$/../video_system/hw/quartus/video_interface_sys/video_interface_sys_bb.v" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../video_system/hw/quartus/video_interface_sys/video_interface_sys_inst.v" beforeDir="false" afterPath="$PROJECT_DIR$/../video_system/hw/quartus/video_interface_sys/video_interface_sys_inst.v" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../video_system/hw/quartus/video_interface_sys/video_interface_sys_inst.vhd" beforeDir="false" afterPath="$PROJECT_DIR$/../video_system/hw/quartus/video_interface_sys/video_interface_sys_inst.vhd" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-144214713">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="33" />
-          <entry key="project.open.time.0" value="4" />
-          <entry key="project.open.time.1" value="4" />
-          <entry key="project.open.time.10" value="4" />
-          <entry key="project.open.time.11" value="2" />
-          <entry key="project.open.time.12" value="1" />
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.3" value="2" />
-          <entry key="project.open.time.4" value="3" />
-          <entry key="project.open.time.5" value="5" />
-          <entry key="project.open.time.6" value="3" />
-          <entry key="project.open.time.7" value="4" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="35" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="Makefile" value="1" />
-          <entry key="bak" value="1" />
-          <entry key="bsp" value="1" />
-          <entry key="c" value="16" />
-          <entry key="d" value="2" />
-          <entry key="h" value="11" />
-          <entry key="html" value="1" />
-          <entry key="mk" value="1" />
-          <entry key="mpf" value="1" />
-          <entry key="mti" value="1" />
-          <entry key="qsys" value="1" />
-          <entry key="tcl" value="3" />
-          <entry key="vhd" value="65" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="Arma.Header" value="11" />
-          <entry key="C++" value="16" />
-          <entry key="HTML" value="1" />
-          <entry key="PLAIN_TEXT" value="12" />
-          <entry key="VHDL" value="65" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="c" value="2070" />
-          <entry key="h" value="13" />
-          <entry key="vhd" value="14582" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="Arma.Header" value="13" />
-          <entry key="C++" value="2065" />
-          <entry key="Enforced Plain Text" value="5" />
-          <entry key="VHDL" value="14489" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.spring.boot.mvc.usages" />
-      <usages-collector id="statistics.spring.boot.run.usages" />
-      <usages-collector id="statistics.vcs.git.usages" />
-      <usages-collector id="statistics.js.language.service.starts" />
-    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -122,8 +64,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/uart_pi/hw/hdl/uart.vhd">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="972">
-              <caret line="233" selection-start-line="233" selection-end-line="233" />
+            <state relative-caret-position="764">
+              <caret line="224" column="3" selection-start-line="224" selection-start-column="3" selection-end-line="224" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -269,12 +211,6 @@
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
   <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1274" />
     <option name="height" value="1440" />
@@ -416,24 +352,26 @@
       <workItem from="1543401653205" duration="796000" />
       <workItem from="1543497239934" duration="598000" />
       <workItem from="1544270146019" duration="3448000" />
-      <workItem from="1544278692032" duration="659000" />
+      <workItem from="1544278692032" duration="1780000" />
+      <workItem from="1544354867386" duration="603000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="141557000" />
+    <option name="totallyTimeSpent" value="143281000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1274" height="1440" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49923897" visible="true" weight="0.27191558" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49923897" weight="0.27191558" />
       <window_info id="Structure" order="1" sideWeight="0.50076103" side_tool="true" weight="0.2893773" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -446,6 +384,7 @@
       <window_info active="true" anchor="bottom" id="Event Log" order="9" side_tool="true" visible="true" weight="0.25036496" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="right" id="Maven" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -459,9 +398,6 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/part1/fpga_intro/hw/hdl/flags.vhd" />
@@ -650,8 +586,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/uart_pi/hw/hdl/uart.vhd">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="972">
-          <caret line="233" selection-start-line="233" selection-end-line="233" />
+        <state relative-caret-position="764">
+          <caret line="224" column="3" selection-start-line="224" selection-start-column="3" selection-end-line="224" selection-end-column="3" />
         </state>
       </provider>
     </entry>

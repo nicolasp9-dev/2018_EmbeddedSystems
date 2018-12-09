@@ -1,4 +1,9 @@
 	video_interface_sys u0 (
+		.camera_control_0_camera_sensor_cam_data      (<connected-to-camera_control_0_camera_sensor_cam_data>),      //   camera_control_0_camera_sensor.cam_data
+		.camera_control_0_camera_sensor_cam_lvalid    (<connected-to-camera_control_0_camera_sensor_cam_lvalid>),    //                                 .cam_lvalid
+		.camera_control_0_camera_sensor_cam_pixelclk  (<connected-to-camera_control_0_camera_sensor_cam_pixelclk>),  //                                 .cam_pixelclk
+		.camera_control_0_camera_sensor_cam_reset_n   (<connected-to-camera_control_0_camera_sensor_cam_reset_n>),   //                                 .cam_reset_n
+		.camera_control_0_camera_sensor_cam_fvalid    (<connected-to-camera_control_0_camera_sensor_cam_fvalid>),    //                                 .cam_fvalid
 		.clk_clk                                      (<connected-to-clk_clk>),                                      //                              clk.clk
 		.hps_0_ddr_mem_a                              (<connected-to-hps_0_ddr_mem_a>),                              //                        hps_0_ddr.mem_a
 		.hps_0_ddr_mem_ba                             (<connected-to-hps_0_ddr_mem_ba>),                             //                                 .mem_ba
@@ -64,21 +69,16 @@
 		.hps_0_io_hps_io_gpio_inst_GPIO53             (<connected-to-hps_0_io_hps_io_gpio_inst_GPIO53>),             //                                 .hps_io_gpio_inst_GPIO53
 		.hps_0_io_hps_io_gpio_inst_GPIO54             (<connected-to-hps_0_io_hps_io_gpio_inst_GPIO54>),             //                                 .hps_io_gpio_inst_GPIO54
 		.hps_0_io_hps_io_gpio_inst_GPIO61             (<connected-to-hps_0_io_hps_io_gpio_inst_GPIO61>),             //                                 .hps_io_gpio_inst_GPIO61
-		.pio_leds_external_connection_export          (<connected-to-pio_leds_external_connection_export>),          //     pio_leds_external_connection.export
-		.reset_reset_n                                (<connected-to-reset_reset_n>),                                //                            reset.reset_n
 		.i2c_0_i2c_scl                                (<connected-to-i2c_0_i2c_scl>),                                //                        i2c_0_i2c.scl
 		.i2c_0_i2c_sda                                (<connected-to-i2c_0_i2c_sda>),                                //                                 .sda
-		.camera_control_0_camera_sensor_cam_data      (<connected-to-camera_control_0_camera_sensor_cam_data>),      //   camera_control_0_camera_sensor.cam_data
-		.camera_control_0_camera_sensor_cam_lvalid    (<connected-to-camera_control_0_camera_sensor_cam_lvalid>),    //                                 .cam_lvalid
-		.camera_control_0_camera_sensor_cam_pixelclk  (<connected-to-camera_control_0_camera_sensor_cam_pixelclk>),  //                                 .cam_pixelclk
-		.camera_control_0_camera_sensor_cam_reset_n   (<connected-to-camera_control_0_camera_sensor_cam_reset_n>),   //                                 .cam_reset_n
-		.camera_control_0_camera_sensor_cam_fvalid    (<connected-to-camera_control_0_camera_sensor_cam_fvalid>),    //                                 .cam_fvalid
 		.lcd_control_0_lcd_screen_signals_cs_n        (<connected-to-lcd_control_0_lcd_screen_signals_cs_n>),        // lcd_control_0_lcd_screen_signals.cs_n
 		.lcd_control_0_lcd_screen_signals_lcd_data    (<connected-to-lcd_control_0_lcd_screen_signals_lcd_data>),    //                                 .lcd_data
 		.lcd_control_0_lcd_screen_signals_lcd_on      (<connected-to-lcd_control_0_lcd_screen_signals_lcd_on>),      //                                 .lcd_on
 		.lcd_control_0_lcd_screen_signals_lcd_reset_n (<connected-to-lcd_control_0_lcd_screen_signals_lcd_reset_n>), //                                 .lcd_reset_n
 		.lcd_control_0_lcd_screen_signals_rd_n        (<connected-to-lcd_control_0_lcd_screen_signals_rd_n>),        //                                 .rd_n
 		.lcd_control_0_lcd_screen_signals_rs          (<connected-to-lcd_control_0_lcd_screen_signals_rs>),          //                                 .rs
-		.lcd_control_0_lcd_screen_signals_wr_n        (<connected-to-lcd_control_0_lcd_screen_signals_wr_n>)         //                                 .wr_n
+		.lcd_control_0_lcd_screen_signals_wr_n        (<connected-to-lcd_control_0_lcd_screen_signals_wr_n>),        //                                 .wr_n
+		.pio_leds_external_connection_export          (<connected-to-pio_leds_external_connection_export>),          //     pio_leds_external_connection.export
+		.reset_reset_n                                (<connected-to-reset_reset_n>)                                 //                            reset.reset_n
 	);
 
