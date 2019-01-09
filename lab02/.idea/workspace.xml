@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4208f494-c13e-4246-8a57-8cdd4293d1e3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../video_system/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../video_system/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../video_system/hw/hdl/avalon master.vhd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../video_system/hw/hdl/avalon_master_camera.vhd" beforeDir="false" afterPath="$PROJECT_DIR$/../video_system/hw/hdl/avalon_master_camera.vhd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../video_system/hw/hdl/avalon_slave_camera.vhd" beforeDir="false" afterPath="$PROJECT_DIR$/../video_system/hw/hdl/avalon_slave_camera.vhd" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />

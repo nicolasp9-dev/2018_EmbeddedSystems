@@ -29,6 +29,7 @@ end avalon_slave_camera;
 architecture synth of avalon_slave_camera is
 
     signal must_save_base : std_logic;
+
 begin
 
     decode_avalon : process(clk, reset)
@@ -36,28 +37,20 @@ begin
         if reset = '1' then
 
         elsif rising_edge(clk) then
-            must_save_base <= '0';
             if avs_write = '1' then
                 case avs_address is
                     when x"0" =>
-                        must_save_base <= '1';
+                        base_address <= avs_writedata;
                     when others =>
-
+                        null;
                 end case;
             elsif avs_read = '1' then
                 case avs_address is
+
                     when others =>
+                        null;
                 end case;
             end if;
-        end if;
-    end process;
-
-    save_base_adress : process(clk, reset)
-    begin
-        if reset = '1' then
-            base_address <= x"00000000";
-        elsif rising_edge(clk) and must_save_base = '1' then
-            base_address <= avs_writedata;
         end if;
     end process;
 
