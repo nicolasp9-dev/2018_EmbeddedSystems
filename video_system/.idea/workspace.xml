@@ -2,31 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02d18ec4-6088-40fc-b644-ef2b520b67ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/hw/hdl/avalon_master_camera.vhd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw/hdl/avalon_slave_camera.vhd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw/hdl/image_processing.vhd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw/hdl/testbenches/tb_avallon_slave.vhd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw/hdl/testbenches/tb_avalon_master.vhd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw/hdl/testbenches/tb_camera_controller.vhd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw/hdl/testbenches/tb_image_processing.vhd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../$" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../lab02/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab02/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab02/uart_pi/hw/modelsim/uart_connexion.cr.mti" beforeDir="false" afterPath="$PROJECT_DIR$/../lab02/uart_pi/hw/modelsim/uart_connexion.cr.mti" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw/hdl/DE0_Nano_SoC_TRDB_D5M_LT24_top_level.vhd" beforeDir="false" afterPath="$PROJECT_DIR$/hw/hdl/DE0_Nano_SoC_TRDB_D5M_LT24_top_level.vhd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw/hdl/camera_control.vhd" beforeDir="false" afterPath="$PROJECT_DIR$/hw/hdl/camera_controller.vhd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw/quartus/.qsys_edit/preferences.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hw/quartus/.qsys_edit/preferences.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw/quartus/camera_control_hw.tcl" beforeDir="false" afterPath="$PROJECT_DIR$/hw/quartus/camera_control_hw.tcl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw/quartus/db/video_interface_complete.db_info" beforeDir="false" afterPath="$PROJECT_DIR$/hw/quartus/db/video_interface_complete.db_info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw/quartus/db/video_interface_complete.quiproj.2296.rdr.flock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw/quartus/greybox_tmp/cbx_args.txt" beforeDir="false" afterPath="$PROJECT_DIR$/hw/quartus/greybox_tmp/cbx_args.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw/quartus/ip/fifio.qip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw/quartus/ip/fifio.v" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw/quartus/ip/fifio_bb.v" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw/quartus/ip/fifo_from_camera.cmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw/quartus/ip/fifo_from_camera.qip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw/quartus/ip/fifo_from_camera.vhd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw/quartus/video_interface_complete.qsf" beforeDir="false" afterPath="$PROJECT_DIR$/hw/quartus/video_interface_complete.qsf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw/hdl/avalon_slave_camera.vhd" beforeDir="false" afterPath="$PROJECT_DIR$/hw/hdl/avalon_slave_camera.vhd" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,20 +13,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hw/hdl/camera_controller.vhd">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="195" column="52" lean-forward="true" selection-start-line="195" selection-start-column="52" selection-end-line="195" selection-end-column="52" />
+            <state relative-caret-position="415">
+              <caret line="192" column="24" lean-forward="true" selection-start-line="192" selection-start-column="24" selection-end-line="192" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/hw/hdl/avalon_slave_camera.vhd">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="32" lean-forward="true" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+            <state relative-caret-position="1095">
+              <caret line="73" column="15" selection-start-line="73" selection-start-column="15" selection-end-line="73" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -67,7 +44,7 @@
         <entry file="file://$PROJECT_DIR$/hw/hdl/image_processing.vhd">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="855">
-              <caret line="57" column="31" lean-forward="true" selection-start-line="57" selection-start-column="31" selection-end-line="57" selection-end-column="31" />
+              <caret line="57" column="31" selection-start-line="57" selection-start-column="31" selection-end-line="57" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -83,9 +60,7 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hw/quartus/ip/cmos_sensor_output_generator/hdl/cmos_sensor_output_generator.vhd">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3209" />
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -100,7 +75,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hw/quartus/ip/cam_fifo2/fifo_16bits.vhd">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
+            <state relative-caret-position="810">
               <caret line="54" column="16" selection-start-line="41" selection-end-line="54" selection-end-column="16" />
             </state>
           </provider>
@@ -118,7 +93,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hw/quartus/ip/cam_fifo1/fifo_12bits.vhd">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-210">
+            <state relative-caret-position="585">
               <caret line="39" column="14" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
             </state>
           </provider>
@@ -146,7 +121,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hw/hdl/LCD_controller.vhd">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
+            <state relative-caret-position="2130">
               <caret line="142" column="31" selection-start-line="142" selection-start-column="31" selection-end-line="142" selection-end-column="31" />
             </state>
           </provider>
@@ -224,8 +199,8 @@
         <option value="$PROJECT_DIR$/hw/hdl/testbenches/tb_image_processing.vhd" />
         <option value="$PROJECT_DIR$/hw/hdl/avalon_master.vhd" />
         <option value="$PROJECT_DIR$/hw/hdl/avalon_master_camera.vhd" />
-        <option value="$PROJECT_DIR$/hw/hdl/avalon_slave_camera.vhd" />
         <option value="$PROJECT_DIR$/hw/hdl/camera_controller.vhd" />
+        <option value="$PROJECT_DIR$/hw/hdl/avalon_slave_camera.vhd" />
       </list>
     </option>
   </component>
@@ -239,8 +214,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -411,16 +386,18 @@
       <workItem from="1546872920999" duration="4618000" />
       <workItem from="1546886622745" duration="4868000" />
       <workItem from="1546981255662" duration="6050000" />
+      <workItem from="1547032836308" duration="2545000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29966000" />
+    <option name="totallyTimeSpent" value="32511000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14098491" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14177918" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -529,12 +506,87 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/hw/hdl/camera_controller.vhd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="192" column="24" lean-forward="true" selection-start-line="192" selection-start-column="24" selection-end-line="192" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw/hdl/image_processing.vhd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="57" column="31" selection-start-line="57" selection-start-column="31" selection-end-line="57" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw/quartus/ip/cmos_sensor_output_generator/hdl/cmos_sensor_output_generator_constants.vhd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="35" selection-start-line="35" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw/quartus/ip/cmos_sensor_output_generator/hdl/cmos_sensor_output_generator.vhd">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw/quartus/ip/cam_fifo2/fifo_16bits_inst.vhd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw/quartus/ip/cam_fifo2/fifo_16bits.vhd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="54" column="16" selection-start-line="41" selection-end-line="54" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw/hdl/testbenches/tb_image_processing.vhd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1065">
+          <caret line="71" column="51" selection-start-line="71" selection-start-column="51" selection-end-line="71" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw/quartus/ip/cam_fifo1/fifo_12bits.vhd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="39" column="14" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw/quartus/ip/cam_fifo1/fifo_12bits_inst.vhd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw/quartus/ip/cam_fifo1/fifo_12bits.qip">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw/quartus/ip/cam_fifo1/fifo_12bits.inc">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw/hdl/LCD_controller.vhd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2130">
+          <caret line="142" column="31" selection-start-line="142" selection-start-column="31" selection-end-line="142" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/hw/hdl/lcd_control.vhd">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="27" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw/hdl/avalon master.vhd">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/sw/nios/application/camera_ctrl.h">
       <provider selected="true" editor-type-id="text-editor" />
@@ -556,76 +608,6 @@
     <entry file="file://$PROJECT_DIR$/sw/nios/application/demo_cmos_sensor_output_generator.c">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/hw/hdl/LCD_controller.vhd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="142" column="31" selection-start-line="142" selection-start-column="31" selection-end-line="142" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hw/quartus/ip/cam_fifo2/fifo_16bits.vhd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="54" column="16" selection-start-line="41" selection-end-line="54" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hw/quartus/ip/cam_fifo1/fifo_12bits_inst.vhd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hw/quartus/ip/cam_fifo1/fifo_12bits.qip">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hw/quartus/ip/cam_fifo1/fifo_12bits.inc">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hw/quartus/ip/cmos_sensor_output_generator/hdl/cmos_sensor_output_generator.vhd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3209" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hw/hdl/testbenches/tb_image_processing.vhd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1065">
-          <caret line="71" column="51" selection-start-line="71" selection-start-column="51" selection-end-line="71" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hw/quartus/ip/cmos_sensor_output_generator/hdl/cmos_sensor_output_generator_constants.vhd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="35" selection-start-line="35" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hw/quartus/ip/cam_fifo2/fifo_16bits_inst.vhd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hw/quartus/ip/cam_fifo1/fifo_12bits.vhd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-210">
-          <caret line="39" column="14" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hw/hdl/image_processing.vhd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="57" column="31" lean-forward="true" selection-start-line="57" selection-start-column="31" selection-end-line="57" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hw/hdl/avalon master.vhd">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/hw/hdl/avalon_master_camera.vhd">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -635,15 +617,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/hw/hdl/avalon_slave_camera.vhd">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="32" lean-forward="true" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hw/hdl/camera_controller.vhd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="195" column="52" lean-forward="true" selection-start-line="195" selection-start-column="52" selection-end-line="195" selection-end-column="52" />
+        <state relative-caret-position="1095">
+          <caret line="73" column="15" selection-start-line="73" selection-start-column="15" selection-end-line="73" selection-end-column="15" />
         </state>
       </provider>
     </entry>
