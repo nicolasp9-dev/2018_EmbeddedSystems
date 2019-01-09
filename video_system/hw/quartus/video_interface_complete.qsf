@@ -963,4 +963,5 @@ set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
 set_global_assignment -name SDC_FILE video_interface_complete.sdc
 set_global_assignment -name QSYS_FILE video_interface_sys.qsys
 set_global_assignment -name VHDL_FILE ../hdl/DE0_Nano_SoC_TRDB_D5M_LT24_top_level.vhd
-set_global_assignment -name QIP_FILE ip/fifo_from_camera.qip
+set_global_assignment -name QIP_FILE ip/cam_fifo1/fifo_12bits.qip
+set_global_assignment -name QIP_FILE ip/cam_fifo2/fifo_16bits.qip

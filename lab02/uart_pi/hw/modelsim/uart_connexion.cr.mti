@@ -80,15 +80,6 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity write
 -- Compiling architecture synth of write
 
-} {} {}} Z:/embedded_systems/lab02/uart_pi/hw/hdl/uart.vhd {1 {vcom -work work -2002 -explicit -stats=none Z:/embedded_systems/lab02/uart_pi/hw/hdl/uart.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Compiling entity uart
--- Compiling architecture synth of uart
-
 } {} {}} Z:/embedded_systems/lab02/uart_pi/hw/hdl/write_buffer.vhd {1 {vcom -work work -2002 -explicit -stats=none Z:/embedded_systems/lab02/uart_pi/hw/hdl/write_buffer.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
@@ -117,14 +108,6 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling architecture testbench of tb_write
 -- Loading entity write
 
-} {} {}} Z:/embedded_systems/lab02/uart_pi/hw/hdl/setup.vhd {1 {vcom -work work -2002 -explicit -stats=none Z:/embedded_systems/lab02/uart_pi/hw/hdl/setup.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity setup
--- Compiling architecture synth of setup
-
 } {} {}} Z:/embedded_systems/lab02/uart_pi/hw/hdl/DE0_Nano_SoC_top_level.vhd {1 {vcom -work work -2002 -explicit -stats=none Z:/embedded_systems/lab02/uart_pi/hw/hdl/DE0_Nano_SoC_top_level.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
@@ -132,5 +115,13 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Loading package std_logic_1164
 -- Compiling entity DE0_Nano_SoC_top_level
 -- Compiling architecture rtl of DE0_Nano_SoC_top_level
+
+} {} {}} Z:/embedded_systems/lab02/uart_pi/hw/hdl/setup.vhd {1 {vcom -work work -2002 -explicit -stats=none Z:/embedded_systems/lab02/uart_pi/hw/hdl/setup.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity setup
+-- Compiling architecture synth of setup
 
 } {} {}}

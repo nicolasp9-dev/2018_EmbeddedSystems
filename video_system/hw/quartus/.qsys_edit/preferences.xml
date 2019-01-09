@@ -8,9 +8,8 @@
    <name preferredWidth="351" />
   </columns>
  </systemtable>
- <library
-   expandedCategories="Library/Qsys Interconnect,Library/University Program,Library,Library/Qsys Interconnect/Memory-Mapped Alpha,Library/University Program/Audio &amp; Video/Video,Library/Qsys Interconnect/Memory-Mapped,Library/University Program/Audio &amp; Video,Project" />
- <window width="2576" height="1416" x="-8" y="-8" />
+ <library expandedCategories="Project/System,Library,Project" />
+ <window width="2641" height="1609" x="444" y="270" />
  <hdlexample language="VERILOG" />
  <generation synthesis="VHDL" />
 </preferences>
